@@ -60,6 +60,8 @@
 #include "integrators/sppm.h"
 #include "integrators/volpath.h"
 #include "integrators/whitted.h"
+#include "integrators/ptaas.h" // PTaaS
+#include "integrators/adaptiveMLT.h" // PTaaS
 #include "lights/diffuse.h"
 #include "lights/distant.h"
 #include "lights/goniometric.h"
@@ -1465,7 +1467,15 @@ Integrator *RenderOptions::MakeIntegrator() const {
         integrator = CreateAOIntegrator(IntegratorParams, sampler, camera);
     } else if (IntegratorName == "sppm") {
         integrator = CreateSPPMIntegrator(IntegratorParams, camera);
-    } else {
+    } else if (IntegratorName == "adaptivemlt") {
+        // PTaaS
+        integrator = CreateAdaptiveMLTIntegrator(IntegratorParams, camera);
+    } else if (IntegratorName == "ptaas") {
+        // PTaaS
+        std::shared_ptr<const Camera> cam2(MakeCamera());
+        integrator = CreatePtaasIntegrator(IntegratorParams, sampler, camera, cam2);
+    } 
+    else {
         Error("Integrator \"%s\" unknown.", IntegratorName.c_str());
         return nullptr;
     }

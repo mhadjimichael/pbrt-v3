@@ -1,4 +1,4 @@
-The system is: Darwin - 17.0.0 - x86_64
+The system is: Darwin - 17.2.0 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is AppleClang, found in "/Users/marios/PTaaS/pbrt-v3/CMakeFiles/3.9.3/CompilerIdC/a.out"
+The C compiler identification is AppleClang, found in "/Users/marios/PTaaS/pbrt-v3/CMakeFiles/3.10.0/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
@@ -23,36 +23,36 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is AppleClang, found in "/Users/marios/PTaaS/pbrt-v3/CMakeFiles/3.9.3/CompilerIdCXX/a.out"
+The CXX compiler identification is AppleClang, found in "/Users/marios/PTaaS/pbrt-v3/CMakeFiles/3.10.0/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2dcc5/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2dcc5.dir/build.make CMakeFiles/cmTC_2dcc5.dir/build
-Building C object CMakeFiles/cmTC_2dcc5.dir/testCCompiler.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_2dcc5.dir/testCCompiler.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_2dcc5
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dcc5.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2dcc5.dir/testCCompiler.c.o  -o cmTC_2dcc5 
+Run Build Command:"/usr/bin/make" "cmTC_01bc8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_01bc8.dir/build.make CMakeFiles/cmTC_01bc8.dir/build
+Building C object CMakeFiles/cmTC_01bc8.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_01bc8.dir/testCCompiler.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_01bc8
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01bc8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_01bc8.dir/testCCompiler.c.o  -o cmTC_01bc8 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7a7a7/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7a7a7.dir/build.make CMakeFiles/cmTC_7a7a7.dir/build
-Building C object CMakeFiles/cmTC_7a7a7.dir/CMakeCCompilerABI.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_7a7a7.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_7a7a7
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a7a7.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_7a7a7.dir/CMakeCCompilerABI.c.o  -o cmTC_7a7a7 
-Apple LLVM version 9.0.0 (clang-900.0.37)
-Target: x86_64-apple-darwin17.0.0
+Run Build Command:"/usr/bin/make" "cmTC_249ef/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_249ef.dir/build.make CMakeFiles/cmTC_249ef.dir/build
+Building C object CMakeFiles/cmTC_249ef.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_249ef.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.10.0/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_249ef
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_249ef.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_249ef.dir/CMakeCCompilerABI.c.o  -o cmTC_249ef 
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin17.2.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_7a7a7 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7a7a7.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-302.3
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_249ef -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_249ef.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-302.3.1
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
 	/usr/lib
@@ -66,18 +66,18 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7a7a7/fast"]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7a7a7.dir/build.make CMakeFiles/cmTC_7a7a7.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_7a7a7.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_7a7a7.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_7a7a7]
-  ignore line: [/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a7a7.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_7a7a7.dir/CMakeCCompilerABI.c.o  -o cmTC_7a7a7 ]
-  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.37)]
-  ignore line: [Target: x86_64-apple-darwin17.0.0]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_249ef/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_249ef.dir/build.make CMakeFiles/cmTC_249ef.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_249ef.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_249ef.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.10.0/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_249ef]
+  ignore line: [/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_249ef.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_249ef.dir/CMakeCCompilerABI.c.o  -o cmTC_249ef ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.38)]
+  ignore line: [Target: x86_64-apple-darwin17.2.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_7a7a7 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7a7a7.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_249ef -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_249ef.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -88,11 +88,11 @@ Parsed C implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.13.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_7a7a7] ==> ignore
+    arg [cmTC_249ef] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_7a7a7.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_249ef.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
   Library search paths: [;/usr/lib;/usr/local/lib]
@@ -113,13 +113,13 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_25259/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_25259.dir/build.make CMakeFiles/cmTC_25259.dir/build
-Building C object CMakeFiles/cmTC_25259.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_25259.dir/feature_tests.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/feature_tests.c
-Linking C executable cmTC_25259
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25259.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_25259.dir/feature_tests.c.o  -o cmTC_25259 
+Run Build Command:"/usr/bin/make" "cmTC_27605/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_27605.dir/build.make CMakeFiles/cmTC_27605.dir/build
+Building C object CMakeFiles/cmTC_27605.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_27605.dir/feature_tests.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/feature_tests.c
+Linking C executable cmTC_27605
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27605.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_27605.dir/feature_tests.c.o  -o cmTC_27605 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -131,13 +131,13 @@ Linking C executable cmTC_25259
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3cc9c/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3cc9c.dir/build.make CMakeFiles/cmTC_3cc9c.dir/build
-Building C object CMakeFiles/cmTC_3cc9c.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_3cc9c.dir/feature_tests.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3cc9c
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cc9c.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3cc9c.dir/feature_tests.c.o  -o cmTC_3cc9c 
+Run Build Command:"/usr/bin/make" "cmTC_46d5c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_46d5c.dir/build.make CMakeFiles/cmTC_46d5c.dir/build
+Building C object CMakeFiles/cmTC_46d5c.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_46d5c.dir/feature_tests.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/feature_tests.c
+Linking C executable cmTC_46d5c
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46d5c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_46d5c.dir/feature_tests.c.o  -o cmTC_46d5c 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -149,13 +149,13 @@ Linking C executable cmTC_3cc9c
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_98a54/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_98a54.dir/build.make CMakeFiles/cmTC_98a54.dir/build
-Building C object CMakeFiles/cmTC_98a54.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_98a54.dir/feature_tests.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/feature_tests.c
-Linking C executable cmTC_98a54
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98a54.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_98a54.dir/feature_tests.c.o  -o cmTC_98a54 
+Run Build Command:"/usr/bin/make" "cmTC_c0ed8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c0ed8.dir/build.make CMakeFiles/cmTC_c0ed8.dir/build
+Building C object CMakeFiles/cmTC_c0ed8.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_c0ed8.dir/feature_tests.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c0ed8
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0ed8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c0ed8.dir/feature_tests.c.o  -o cmTC_c0ed8 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -165,31 +165,31 @@ Linking C executable cmTC_98a54
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5052f/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5052f.dir/build.make CMakeFiles/cmTC_5052f.dir/build
-Building CXX object CMakeFiles/cmTC_5052f.dir/testCXXCompiler.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_5052f.dir/testCXXCompiler.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_5052f
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5052f.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5052f.dir/testCXXCompiler.cxx.o  -o cmTC_5052f 
+Run Build Command:"/usr/bin/make" "cmTC_9d0d1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9d0d1.dir/build.make CMakeFiles/cmTC_9d0d1.dir/build
+Building CXX object CMakeFiles/cmTC_9d0d1.dir/testCXXCompiler.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_9d0d1.dir/testCXXCompiler.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_9d0d1
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d0d1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9d0d1.dir/testCXXCompiler.cxx.o  -o cmTC_9d0d1 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b0e41/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b0e41.dir/build.make CMakeFiles/cmTC_b0e41.dir/build
-Building CXX object CMakeFiles/cmTC_b0e41.dir/CMakeCXXCompilerABI.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_b0e41.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_b0e41
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0e41.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b0e41.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b0e41 
-Apple LLVM version 9.0.0 (clang-900.0.37)
-Target: x86_64-apple-darwin17.0.0
+Run Build Command:"/usr/bin/make" "cmTC_8d6c9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8d6c9.dir/build.make CMakeFiles/cmTC_8d6c9.dir/build
+Building CXX object CMakeFiles/cmTC_8d6c9.dir/CMakeCXXCompilerABI.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_8d6c9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.10.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_8d6c9
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d6c9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_8d6c9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8d6c9 
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin17.2.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_b0e41 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b0e41.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-302.3
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_8d6c9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8d6c9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-302.3.1
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
 	/usr/lib
@@ -203,18 +203,18 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b0e41/fast"]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b0e41.dir/build.make CMakeFiles/cmTC_b0e41.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_b0e41.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_b0e41.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_b0e41]
-  ignore line: [/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0e41.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b0e41.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b0e41 ]
-  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.37)]
-  ignore line: [Target: x86_64-apple-darwin17.0.0]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8d6c9/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8d6c9.dir/build.make CMakeFiles/cmTC_8d6c9.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_8d6c9.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_8d6c9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.10.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_8d6c9]
+  ignore line: [/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d6c9.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_8d6c9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8d6c9 ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.38)]
+  ignore line: [Target: x86_64-apple-darwin17.2.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_b0e41 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b0e41.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_8d6c9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8d6c9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -225,11 +225,11 @@ Parsed CXX implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.13.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b0e41] ==> ignore
+    arg [cmTC_8d6c9] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_b0e41.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_8d6c9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lSystem] ==> lib [System]
     arg [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
@@ -251,13 +251,13 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_98902/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_98902.dir/build.make CMakeFiles/cmTC_98902.dir/build
-Building CXX object CMakeFiles/cmTC_98902.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_98902.dir/feature_tests.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_98902
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98902.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_98902.dir/feature_tests.cxx.o  -o cmTC_98902 
+Run Build Command:"/usr/bin/make" "cmTC_d54dc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d54dc.dir/build.make CMakeFiles/cmTC_d54dc.dir/build
+Building CXX object CMakeFiles/cmTC_d54dc.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_d54dc.dir/feature_tests.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d54dc
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d54dc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d54dc.dir/feature_tests.cxx.o  -o cmTC_d54dc 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -322,13 +322,13 @@ Linking CXX executable cmTC_98902
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_876fd/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_876fd.dir/build.make CMakeFiles/cmTC_876fd.dir/build
-Building CXX object CMakeFiles/cmTC_876fd.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_876fd.dir/feature_tests.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_876fd
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_876fd.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_876fd.dir/feature_tests.cxx.o  -o cmTC_876fd 
+Run Build Command:"/usr/bin/make" "cmTC_c309d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c309d.dir/build.make CMakeFiles/cmTC_c309d.dir/build
+Building CXX object CMakeFiles/cmTC_c309d.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_c309d.dir/feature_tests.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c309d
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c309d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c309d.dir/feature_tests.cxx.o  -o cmTC_c309d 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -393,13 +393,13 @@ Linking CXX executable cmTC_876fd
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_663a6/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_663a6.dir/build.make CMakeFiles/cmTC_663a6.dir/build
-Building CXX object CMakeFiles/cmTC_663a6.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_663a6.dir/feature_tests.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_663a6
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_663a6.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_663a6.dir/feature_tests.cxx.o  -o cmTC_663a6 
+Run Build Command:"/usr/bin/make" "cmTC_5a03f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5a03f.dir/build.make CMakeFiles/cmTC_5a03f.dir/build
+Building CXX object CMakeFiles/cmTC_5a03f.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_5a03f.dir/feature_tests.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5a03f
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a03f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5a03f.dir/feature_tests.cxx.o  -o cmTC_5a03f 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -464,13 +464,13 @@ Linking CXX executable cmTC_663a6
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4dc02/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4dc02.dir/build.make CMakeFiles/cmTC_4dc02.dir/build
-Building CXX object CMakeFiles/cmTC_4dc02.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_4dc02.dir/feature_tests.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4dc02
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dc02.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4dc02.dir/feature_tests.cxx.o  -o cmTC_4dc02 
+Run Build Command:"/usr/bin/make" "cmTC_fbdc5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fbdc5.dir/build.make CMakeFiles/cmTC_fbdc5.dir/build
+Building CXX object CMakeFiles/cmTC_fbdc5.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_fbdc5.dir/feature_tests.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fbdc5
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbdc5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fbdc5.dir/feature_tests.cxx.o  -o cmTC_fbdc5 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -533,25 +533,25 @@ Linking CXX executable cmTC_4dc02
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_91fdc/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_91fdc.dir/build.make CMakeFiles/cmTC_91fdc.dir/build
-Building C object CMakeFiles/cmTC_91fdc.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_91fdc.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_91fdc
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91fdc.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_91fdc.dir/CheckIncludeFile.c.o  -o cmTC_91fdc 
+Run Build Command:"/usr/bin/make" "cmTC_7697d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7697d.dir/build.make CMakeFiles/cmTC_7697d.dir/build
+Building C object CMakeFiles/cmTC_7697d.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_7697d.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7697d
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7697d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7697d.dir/CheckIncludeFile.c.o  -o cmTC_7697d 
 
 
 Determining if the pthread_create exist passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_65590/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_65590.dir/build.make CMakeFiles/cmTC_65590.dir/build
-Building C object CMakeFiles/cmTC_65590.dir/CheckSymbolExists.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_65590.dir/CheckSymbolExists.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_65590
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65590.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_65590.dir/CheckSymbolExists.c.o  -o cmTC_65590 
+Run Build Command:"/usr/bin/make" "cmTC_af115/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_af115.dir/build.make CMakeFiles/cmTC_af115.dir/build
+Building C object CMakeFiles/cmTC_af115.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_af115.dir/CheckSymbolExists.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_af115
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af115.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_af115.dir/CheckSymbolExists.c.o  -o cmTC_af115 
 
 File /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -571,114 +571,114 @@ int main(int argc, char** argv)
 Determining if files alloca.h exist passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cd775/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cd775.dir/build.make CMakeFiles/cmTC_cd775.dir/build
-Building C object CMakeFiles/cmTC_cd775.dir/CheckIncludeFiles.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_cd775.dir/CheckIncludeFiles.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTC_cd775
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd775.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cd775.dir/CheckIncludeFiles.c.o  -o cmTC_cd775 
+Run Build Command:"/usr/bin/make" "cmTC_cc7f1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cc7f1.dir/build.make CMakeFiles/cmTC_cc7f1.dir/build
+Building C object CMakeFiles/cmTC_cc7f1.dir/CheckIncludeFiles.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_cc7f1.dir/CheckIncludeFiles.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_cc7f1
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc7f1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cc7f1.dir/CheckIncludeFiles.c.o  -o cmTC_cc7f1 
 
 
 Determining if files memory.h exist passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2381f/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2381f.dir/build.make CMakeFiles/cmTC_2381f.dir/build
-Building C object CMakeFiles/cmTC_2381f.dir/CheckIncludeFiles.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_2381f.dir/CheckIncludeFiles.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTC_2381f
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2381f.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2381f.dir/CheckIncludeFiles.c.o  -o cmTC_2381f 
+Run Build Command:"/usr/bin/make" "cmTC_3353a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3353a.dir/build.make CMakeFiles/cmTC_3353a.dir/build
+Building C object CMakeFiles/cmTC_3353a.dir/CheckIncludeFiles.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_3353a.dir/CheckIncludeFiles.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_3353a
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3353a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3353a.dir/CheckIncludeFiles.c.o  -o cmTC_3353a 
 
 
 Determining if files unistd.h exist passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b34b4/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b34b4.dir/build.make CMakeFiles/cmTC_b34b4.dir/build
-Building C object CMakeFiles/cmTC_b34b4.dir/CheckIncludeFiles.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_b34b4.dir/CheckIncludeFiles.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTC_b34b4
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b34b4.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b34b4.dir/CheckIncludeFiles.c.o  -o cmTC_b34b4 
+Run Build Command:"/usr/bin/make" "cmTC_d1262/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d1262.dir/build.make CMakeFiles/cmTC_d1262.dir/build
+Building C object CMakeFiles/cmTC_d1262.dir/CheckIncludeFiles.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_d1262.dir/CheckIncludeFiles.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d1262
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1262.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d1262.dir/CheckIncludeFiles.c.o  -o cmTC_d1262 
 
 
 Performing C++ SOURCE FILE Test HAVE_HEX_FP_CONSTANTS succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3870e/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3870e.dir/build.make CMakeFiles/cmTC_3870e.dir/build
-Building CXX object CMakeFiles/cmTC_3870e.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_HEX_FP_CONSTANTS   -o CMakeFiles/cmTC_3870e.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_3870e
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3870e.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_HEX_FP_CONSTANTS -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3870e.dir/src.cxx.o  -o cmTC_3870e 
+Run Build Command:"/usr/bin/make" "cmTC_91d0d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_91d0d.dir/build.make CMakeFiles/cmTC_91d0d.dir/build
+Building CXX object CMakeFiles/cmTC_91d0d.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_HEX_FP_CONSTANTS   -o CMakeFiles/cmTC_91d0d.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_91d0d
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91d0d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_HEX_FP_CONSTANTS -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_91d0d.dir/src.cxx.o  -o cmTC_91d0d 
 
 Source file was:
 int main() { float x = 0x1p-32f; }
 Performing C++ SOURCE FILE Test HAVE_BINARY_CONSTANTS succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c229a/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c229a.dir/build.make CMakeFiles/cmTC_c229a.dir/build
-Building CXX object CMakeFiles/cmTC_c229a.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_BINARY_CONSTANTS   -o CMakeFiles/cmTC_c229a.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_c229a
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c229a.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_BINARY_CONSTANTS -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c229a.dir/src.cxx.o  -o cmTC_c229a 
+Run Build Command:"/usr/bin/make" "cmTC_11f43/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_11f43.dir/build.make CMakeFiles/cmTC_11f43.dir/build
+Building CXX object CMakeFiles/cmTC_11f43.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_BINARY_CONSTANTS   -o CMakeFiles/cmTC_11f43.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_11f43
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11f43.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_BINARY_CONSTANTS -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_11f43.dir/src.cxx.o  -o cmTC_11f43 
 
 Source file was:
 int main() { int x = 0b101011; }
 Performing C++ SOURCE FILE Test HAVE_CONSTEXPR succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f7b30/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f7b30.dir/build.make CMakeFiles/cmTC_f7b30.dir/build
-Building CXX object CMakeFiles/cmTC_f7b30.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_CONSTEXPR   -o CMakeFiles/cmTC_f7b30.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_f7b30
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7b30.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_CONSTEXPR -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f7b30.dir/src.cxx.o  -o cmTC_f7b30 
+Run Build Command:"/usr/bin/make" "cmTC_46eaf/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_46eaf.dir/build.make CMakeFiles/cmTC_46eaf.dir/build
+Building CXX object CMakeFiles/cmTC_46eaf.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_CONSTEXPR   -o CMakeFiles/cmTC_46eaf.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_46eaf
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46eaf.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_CONSTEXPR -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_46eaf.dir/src.cxx.o  -o cmTC_46eaf 
 
 Source file was:
 int main() { constexpr int x = 0; }
 Performing C++ SOURCE FILE Test HAVE_ALIGNAS succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_62c1b/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_62c1b.dir/build.make CMakeFiles/cmTC_62c1b.dir/build
-Building CXX object CMakeFiles/cmTC_62c1b.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_ALIGNAS   -o CMakeFiles/cmTC_62c1b.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_62c1b
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62c1b.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_ALIGNAS -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_62c1b.dir/src.cxx.o  -o cmTC_62c1b 
+Run Build Command:"/usr/bin/make" "cmTC_5b5c6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5b5c6.dir/build.make CMakeFiles/cmTC_5b5c6.dir/build
+Building CXX object CMakeFiles/cmTC_5b5c6.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_ALIGNAS   -o CMakeFiles/cmTC_5b5c6.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5b5c6
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b5c6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_ALIGNAS -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5b5c6.dir/src.cxx.o  -o cmTC_5b5c6 
 
 Source file was:
 struct alignas(32) Foo { char x; }; int main() { }
 Performing C++ SOURCE FILE Test HAVE_ALIGNOF succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fbf93/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fbf93.dir/build.make CMakeFiles/cmTC_fbf93.dir/build
-Building CXX object CMakeFiles/cmTC_fbf93.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_ALIGNOF   -o CMakeFiles/cmTC_fbf93.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_fbf93
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbf93.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_ALIGNOF -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fbf93.dir/src.cxx.o  -o cmTC_fbf93 
+Run Build Command:"/usr/bin/make" "cmTC_31f36/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_31f36.dir/build.make CMakeFiles/cmTC_31f36.dir/build
+Building CXX object CMakeFiles/cmTC_31f36.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_ALIGNOF   -o CMakeFiles/cmTC_31f36.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_31f36
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31f36.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_ALIGNOF -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_31f36.dir/src.cxx.o  -o cmTC_31f36 
 
 Source file was:
 int main() { int x = alignof(double); }
 Performing C++ SOURCE FILE Test HAVE_ITIMER succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3e13a/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3e13a.dir/build.make CMakeFiles/cmTC_3e13a.dir/build
-Building CXX object CMakeFiles/cmTC_3e13a.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_ITIMER   -o CMakeFiles/cmTC_3e13a.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_3e13a
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e13a.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_ITIMER -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3e13a.dir/src.cxx.o  -o cmTC_3e13a 
+Run Build Command:"/usr/bin/make" "cmTC_de27d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_de27d.dir/build.make CMakeFiles/cmTC_de27d.dir/build
+Building CXX object CMakeFiles/cmTC_de27d.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_ITIMER   -o CMakeFiles/cmTC_de27d.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_de27d
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de27d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_ITIMER -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_de27d.dir/src.cxx.o  -o cmTC_de27d 
 
 Source file was:
 
@@ -700,13 +700,13 @@ int main() {
 Performing C++ SOURCE FILE Test HAVE_NONPOD_IN_UNIONS succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8be47/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8be47.dir/build.make CMakeFiles/cmTC_8be47.dir/build
-Building CXX object CMakeFiles/cmTC_8be47.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_NONPOD_IN_UNIONS   -o CMakeFiles/cmTC_8be47.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_8be47
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8be47.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_NONPOD_IN_UNIONS -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8be47.dir/src.cxx.o  -o cmTC_8be47 
+Run Build Command:"/usr/bin/make" "cmTC_2b4c0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2b4c0.dir/build.make CMakeFiles/cmTC_2b4c0.dir/build
+Building CXX object CMakeFiles/cmTC_2b4c0.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_NONPOD_IN_UNIONS   -o CMakeFiles/cmTC_2b4c0.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2b4c0
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b4c0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_NONPOD_IN_UNIONS -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2b4c0.dir/src.cxx.o  -o cmTC_2b4c0 
 
 Source file was:
 
@@ -717,13 +717,13 @@ int main() { Foo f; }
 Performing C++ SOURCE FILE Test HAVE_ATTRIBUTE_NOINLINE succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_51a0a/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_51a0a.dir/build.make CMakeFiles/cmTC_51a0a.dir/build
-Building CXX object CMakeFiles/cmTC_51a0a.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_ATTRIBUTE_NOINLINE   -o CMakeFiles/cmTC_51a0a.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_51a0a
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51a0a.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_ATTRIBUTE_NOINLINE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_51a0a.dir/src.cxx.o  -o cmTC_51a0a 
+Run Build Command:"/usr/bin/make" "cmTC_7b02e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7b02e.dir/build.make CMakeFiles/cmTC_7b02e.dir/build
+Building CXX object CMakeFiles/cmTC_7b02e.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_ATTRIBUTE_NOINLINE   -o CMakeFiles/cmTC_7b02e.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7b02e
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b02e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_ATTRIBUTE_NOINLINE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7b02e.dir/src.cxx.o  -o cmTC_7b02e 
 
 Source file was:
 __attribute__((noinline)) void foo() { }
@@ -731,13 +731,13 @@ int main() { }
 Performing C++ SOURCE FILE Test HAVE_POSIX_MEMALIGN succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1edce/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1edce.dir/build.make CMakeFiles/cmTC_1edce.dir/build
-Building CXX object CMakeFiles/cmTC_1edce.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_POSIX_MEMALIGN   -o CMakeFiles/cmTC_1edce.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_1edce
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1edce.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_POSIX_MEMALIGN -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1edce.dir/src.cxx.o  -o cmTC_1edce 
+Run Build Command:"/usr/bin/make" "cmTC_50812/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_50812.dir/build.make CMakeFiles/cmTC_50812.dir/build
+Building CXX object CMakeFiles/cmTC_50812.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_POSIX_MEMALIGN   -o CMakeFiles/cmTC_50812.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_50812
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50812.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_POSIX_MEMALIGN -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_50812.dir/src.cxx.o  -o cmTC_50812 
 
 Source file was:
 
@@ -749,13 +749,13 @@ int main() {
 Performing C++ SOURCE FILE Test HAVE_THREAD_LOCAL succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dbacb/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dbacb.dir/build.make CMakeFiles/cmTC_dbacb.dir/build
-Building CXX object CMakeFiles/cmTC_dbacb.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_THREAD_LOCAL   -o CMakeFiles/cmTC_dbacb.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_dbacb
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbacb.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_THREAD_LOCAL -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dbacb.dir/src.cxx.o  -o cmTC_dbacb 
+Run Build Command:"/usr/bin/make" "cmTC_b30c6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b30c6.dir/build.make CMakeFiles/cmTC_b30c6.dir/build
+Building CXX object CMakeFiles/cmTC_b30c6.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_THREAD_LOCAL   -o CMakeFiles/cmTC_b30c6.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b30c6
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b30c6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_THREAD_LOCAL -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b30c6.dir/src.cxx.o  -o cmTC_b30c6 
 
 Source file was:
 
@@ -764,13 +764,13 @@ thread_local int x; int main() { }
 Performing C++ SOURCE FILE Test HAVE___THREAD succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_293e1/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_293e1.dir/build.make CMakeFiles/cmTC_293e1.dir/build
-Building CXX object CMakeFiles/cmTC_293e1.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE___THREAD   -o CMakeFiles/cmTC_293e1.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_293e1
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_293e1.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE___THREAD -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_293e1.dir/src.cxx.o  -o cmTC_293e1 
+Run Build Command:"/usr/bin/make" "cmTC_cf128/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cf128.dir/build.make CMakeFiles/cmTC_cf128.dir/build
+Building CXX object CMakeFiles/cmTC_cf128.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE___THREAD   -o CMakeFiles/cmTC_cf128.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cf128
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf128.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE___THREAD -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cf128.dir/src.cxx.o  -o cmTC_cf128 
 
 Source file was:
 
@@ -779,13 +779,13 @@ __thread int x; int main() { }
 Performing C++ SOURCE FILE Test HAVE_GCC_INLINE_ASM_AVX succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1c06d/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1c06d.dir/build.make CMakeFiles/cmTC_1c06d.dir/build
-Building CXX object CMakeFiles/cmTC_1c06d.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare -Wno-deprecated-register -DHAVE_GCC_INLINE_ASM_AVX   -o CMakeFiles/cmTC_1c06d.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_1c06d
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c06d.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare -Wno-deprecated-register -DHAVE_GCC_INLINE_ASM_AVX -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1c06d.dir/src.cxx.o  -o cmTC_1c06d 
+Run Build Command:"/usr/bin/make" "cmTC_fb89a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fb89a.dir/build.make CMakeFiles/cmTC_fb89a.dir/build
+Building CXX object CMakeFiles/cmTC_fb89a.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare -Wno-deprecated-register -DHAVE_GCC_INLINE_ASM_AVX   -o CMakeFiles/cmTC_fb89a.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fb89a
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb89a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare -Wno-deprecated-register -DHAVE_GCC_INLINE_ASM_AVX -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fb89a.dir/src.cxx.o  -o cmTC_fb89a 
 
 Source file was:
 
@@ -807,13 +807,13 @@ Source file was:
 Performing C++ SOURCE FILE Test HAVE_SYSCONF_NPROCESSORS_ONLN succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1d847/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1d847.dir/build.make CMakeFiles/cmTC_1d847.dir/build
-Building CXX object CMakeFiles/cmTC_1d847.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare -Wno-deprecated-register -DHAVE_SYSCONF_NPROCESSORS_ONLN   -o CMakeFiles/cmTC_1d847.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_1d847
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d847.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare -Wno-deprecated-register -DHAVE_SYSCONF_NPROCESSORS_ONLN -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1d847.dir/src.cxx.o  -o cmTC_1d847 
+Run Build Command:"/usr/bin/make" "cmTC_72ea3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_72ea3.dir/build.make CMakeFiles/cmTC_72ea3.dir/build
+Building CXX object CMakeFiles/cmTC_72ea3.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare -Wno-deprecated-register -DHAVE_SYSCONF_NPROCESSORS_ONLN   -o CMakeFiles/cmTC_72ea3.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_72ea3
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72ea3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare -Wno-deprecated-register -DHAVE_SYSCONF_NPROCESSORS_ONLN -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_72ea3.dir/src.cxx.o  -o cmTC_72ea3 
 
 Source file was:
 
@@ -826,409 +826,409 @@ Source file was:
 Determining if the include file dlfcn.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_db75c/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_db75c.dir/build.make CMakeFiles/cmTC_db75c.dir/build
-Building C object CMakeFiles/cmTC_db75c.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_db75c.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_db75c
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db75c.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_db75c.dir/CheckIncludeFile.c.o  -o cmTC_db75c 
+Run Build Command:"/usr/bin/make" "cmTC_dce0e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dce0e.dir/build.make CMakeFiles/cmTC_dce0e.dir/build
+Building C object CMakeFiles/cmTC_dce0e.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_dce0e.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dce0e
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dce0e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dce0e.dir/CheckIncludeFile.c.o  -o cmTC_dce0e 
 
 
 Determining if the include file execinfo.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_74184/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_74184.dir/build.make CMakeFiles/cmTC_74184.dir/build
-Building C object CMakeFiles/cmTC_74184.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_74184.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_74184
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74184.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_74184.dir/CheckIncludeFile.c.o  -o cmTC_74184 
+Run Build Command:"/usr/bin/make" "cmTC_888ba/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_888ba.dir/build.make CMakeFiles/cmTC_888ba.dir/build
+Building C object CMakeFiles/cmTC_888ba.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_888ba.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_888ba
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_888ba.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_888ba.dir/CheckIncludeFile.c.o  -o cmTC_888ba 
 
 
 Determining if the include file glob.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e6f94/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e6f94.dir/build.make CMakeFiles/cmTC_e6f94.dir/build
-Building C object CMakeFiles/cmTC_e6f94.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_e6f94.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_e6f94
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6f94.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e6f94.dir/CheckIncludeFile.c.o  -o cmTC_e6f94 
+Run Build Command:"/usr/bin/make" "cmTC_3def4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3def4.dir/build.make CMakeFiles/cmTC_3def4.dir/build
+Building C object CMakeFiles/cmTC_3def4.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_3def4.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3def4
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3def4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3def4.dir/CheckIncludeFile.c.o  -o cmTC_3def4 
 
 
 Determining if the include file inttypes.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ca743/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ca743.dir/build.make CMakeFiles/cmTC_ca743.dir/build
-Building C object CMakeFiles/cmTC_ca743.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_ca743.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_ca743
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca743.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ca743.dir/CheckIncludeFile.c.o  -o cmTC_ca743 
+Run Build Command:"/usr/bin/make" "cmTC_e270a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e270a.dir/build.make CMakeFiles/cmTC_e270a.dir/build
+Building C object CMakeFiles/cmTC_e270a.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_e270a.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e270a
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e270a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e270a.dir/CheckIncludeFile.c.o  -o cmTC_e270a 
 
 
 Determining if the include file libunwind.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5d860/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5d860.dir/build.make CMakeFiles/cmTC_5d860.dir/build
-Building C object CMakeFiles/cmTC_5d860.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_5d860.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_5d860
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d860.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5d860.dir/CheckIncludeFile.c.o  -o cmTC_5d860 
+Run Build Command:"/usr/bin/make" "cmTC_6deaa/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6deaa.dir/build.make CMakeFiles/cmTC_6deaa.dir/build
+Building C object CMakeFiles/cmTC_6deaa.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_6deaa.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6deaa
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6deaa.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6deaa.dir/CheckIncludeFile.c.o  -o cmTC_6deaa 
 
 
 Determining if the include file pwd.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_28206/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_28206.dir/build.make CMakeFiles/cmTC_28206.dir/build
-Building C object CMakeFiles/cmTC_28206.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_28206.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_28206
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28206.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_28206.dir/CheckIncludeFile.c.o  -o cmTC_28206 
+Run Build Command:"/usr/bin/make" "cmTC_18c19/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_18c19.dir/build.make CMakeFiles/cmTC_18c19.dir/build
+Building C object CMakeFiles/cmTC_18c19.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_18c19.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_18c19
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18c19.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_18c19.dir/CheckIncludeFile.c.o  -o cmTC_18c19 
 
 
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f62c6/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f62c6.dir/build.make CMakeFiles/cmTC_f62c6.dir/build
-Building C object CMakeFiles/cmTC_f62c6.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_f62c6.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_f62c6
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f62c6.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f62c6.dir/CheckIncludeFile.c.o  -o cmTC_f62c6 
+Run Build Command:"/usr/bin/make" "cmTC_d08eb/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d08eb.dir/build.make CMakeFiles/cmTC_d08eb.dir/build
+Building C object CMakeFiles/cmTC_d08eb.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_d08eb.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d08eb
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d08eb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d08eb.dir/CheckIncludeFile.c.o  -o cmTC_d08eb 
 
 
 Determining if the include file stdlib.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fc2ed/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fc2ed.dir/build.make CMakeFiles/cmTC_fc2ed.dir/build
-Building C object CMakeFiles/cmTC_fc2ed.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_fc2ed.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_fc2ed
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc2ed.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fc2ed.dir/CheckIncludeFile.c.o  -o cmTC_fc2ed 
+Run Build Command:"/usr/bin/make" "cmTC_463b5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_463b5.dir/build.make CMakeFiles/cmTC_463b5.dir/build
+Building C object CMakeFiles/cmTC_463b5.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_463b5.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_463b5
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_463b5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_463b5.dir/CheckIncludeFile.c.o  -o cmTC_463b5 
 
 
 Determining if the include file string.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6998a/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6998a.dir/build.make CMakeFiles/cmTC_6998a.dir/build
-Building C object CMakeFiles/cmTC_6998a.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_6998a.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_6998a
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6998a.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6998a.dir/CheckIncludeFile.c.o  -o cmTC_6998a 
+Run Build Command:"/usr/bin/make" "cmTC_4cbe1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4cbe1.dir/build.make CMakeFiles/cmTC_4cbe1.dir/build
+Building C object CMakeFiles/cmTC_4cbe1.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_4cbe1.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4cbe1
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cbe1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4cbe1.dir/CheckIncludeFile.c.o  -o cmTC_4cbe1 
 
 
 Determining if the include file strings.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d69ef/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d69ef.dir/build.make CMakeFiles/cmTC_d69ef.dir/build
-Building C object CMakeFiles/cmTC_d69ef.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_d69ef.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_d69ef
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d69ef.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d69ef.dir/CheckIncludeFile.c.o  -o cmTC_d69ef 
+Run Build Command:"/usr/bin/make" "cmTC_17e9d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_17e9d.dir/build.make CMakeFiles/cmTC_17e9d.dir/build
+Building C object CMakeFiles/cmTC_17e9d.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_17e9d.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_17e9d
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17e9d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_17e9d.dir/CheckIncludeFile.c.o  -o cmTC_17e9d 
 
 
 Determining if the include file sys/stat.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c14b5/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c14b5.dir/build.make CMakeFiles/cmTC_c14b5.dir/build
-Building C object CMakeFiles/cmTC_c14b5.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_c14b5.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_c14b5
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c14b5.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c14b5.dir/CheckIncludeFile.c.o  -o cmTC_c14b5 
+Run Build Command:"/usr/bin/make" "cmTC_3c6fd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3c6fd.dir/build.make CMakeFiles/cmTC_3c6fd.dir/build
+Building C object CMakeFiles/cmTC_3c6fd.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_3c6fd.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3c6fd
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c6fd.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3c6fd.dir/CheckIncludeFile.c.o  -o cmTC_3c6fd 
 
 
 Determining if the include file sys/syscall.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e2422/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e2422.dir/build.make CMakeFiles/cmTC_e2422.dir/build
-Building C object CMakeFiles/cmTC_e2422.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_e2422.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_e2422
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2422.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e2422.dir/CheckIncludeFile.c.o  -o cmTC_e2422 
+Run Build Command:"/usr/bin/make" "cmTC_ef93f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ef93f.dir/build.make CMakeFiles/cmTC_ef93f.dir/build
+Building C object CMakeFiles/cmTC_ef93f.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_ef93f.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ef93f
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef93f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ef93f.dir/CheckIncludeFile.c.o  -o cmTC_ef93f 
 
 
 Determining if the include file sys/time.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8e651/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8e651.dir/build.make CMakeFiles/cmTC_8e651.dir/build
-Building C object CMakeFiles/cmTC_8e651.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_8e651.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_8e651
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e651.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8e651.dir/CheckIncludeFile.c.o  -o cmTC_8e651 
+Run Build Command:"/usr/bin/make" "cmTC_0dd0e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0dd0e.dir/build.make CMakeFiles/cmTC_0dd0e.dir/build
+Building C object CMakeFiles/cmTC_0dd0e.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_0dd0e.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0dd0e
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dd0e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0dd0e.dir/CheckIncludeFile.c.o  -o cmTC_0dd0e 
 
 
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dfdff/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dfdff.dir/build.make CMakeFiles/cmTC_dfdff.dir/build
-Building C object CMakeFiles/cmTC_dfdff.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_dfdff.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_dfdff
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfdff.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dfdff.dir/CheckIncludeFile.c.o  -o cmTC_dfdff 
+Run Build Command:"/usr/bin/make" "cmTC_ce14f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ce14f.dir/build.make CMakeFiles/cmTC_ce14f.dir/build
+Building C object CMakeFiles/cmTC_ce14f.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_ce14f.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ce14f
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce14f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ce14f.dir/CheckIncludeFile.c.o  -o cmTC_ce14f 
 
 
 Determining if the include file sys/utsname.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3837e/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3837e.dir/build.make CMakeFiles/cmTC_3837e.dir/build
-Building C object CMakeFiles/cmTC_3837e.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_3837e.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_3837e
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3837e.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3837e.dir/CheckIncludeFile.c.o  -o cmTC_3837e 
+Run Build Command:"/usr/bin/make" "cmTC_e258a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e258a.dir/build.make CMakeFiles/cmTC_e258a.dir/build
+Building C object CMakeFiles/cmTC_e258a.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_e258a.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e258a
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e258a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e258a.dir/CheckIncludeFile.c.o  -o cmTC_e258a 
 
 
 Determining if the include file syslog.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_96a54/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_96a54.dir/build.make CMakeFiles/cmTC_96a54.dir/build
-Building C object CMakeFiles/cmTC_96a54.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_96a54.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_96a54
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96a54.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_96a54.dir/CheckIncludeFile.c.o  -o cmTC_96a54 
+Run Build Command:"/usr/bin/make" "cmTC_233c9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_233c9.dir/build.make CMakeFiles/cmTC_233c9.dir/build
+Building C object CMakeFiles/cmTC_233c9.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_233c9.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_233c9
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_233c9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_233c9.dir/CheckIncludeFile.c.o  -o cmTC_233c9 
 
 
 Determining if the include file unwind.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_82246/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_82246.dir/build.make CMakeFiles/cmTC_82246.dir/build
-Building C object CMakeFiles/cmTC_82246.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_82246.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_82246
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82246.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_82246.dir/CheckIncludeFile.c.o  -o cmTC_82246 
+Run Build Command:"/usr/bin/make" "cmTC_da6c5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_da6c5.dir/build.make CMakeFiles/cmTC_da6c5.dir/build
+Building C object CMakeFiles/cmTC_da6c5.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_da6c5.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_da6c5
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da6c5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_da6c5.dir/CheckIncludeFile.c.o  -o cmTC_da6c5 
 
 
 Determining if the include file ext/hash_map exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eeb2b/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_eeb2b.dir/build.make CMakeFiles/cmTC_eeb2b.dir/build
-Building CXX object CMakeFiles/cmTC_eeb2b.dir/CheckIncludeFile.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register    -o CMakeFiles/cmTC_eeb2b.dir/CheckIncludeFile.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Run Build Command:"/usr/bin/make" "cmTC_2482d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2482d.dir/build.make CMakeFiles/cmTC_2482d.dir/build
+Building CXX object CMakeFiles/cmTC_2482d.dir/CheckIncludeFile.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register    -o CMakeFiles/cmTC_2482d.dir/CheckIncludeFile.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
 In file included from /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
 /Library/Developer/CommandLineTools/usr/include/c++/v1/ext/hash_map:213:5: warning: Use of the header <ext/hash_map> is deprecated.  Migrate to <unordered_map> [-W#warnings]
 #   warning Use of the header <ext/hash_map> is deprecated.  Migrate to <unordered_map>
     ^
 1 warning generated.
-Linking CXX executable cmTC_eeb2b
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeb2b.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_eeb2b.dir/CheckIncludeFile.cxx.o  -o cmTC_eeb2b 
+Linking CXX executable cmTC_2482d
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2482d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2482d.dir/CheckIncludeFile.cxx.o  -o cmTC_2482d 
 
 
 Determining if the include file ext/hash_set exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_99421/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_99421.dir/build.make CMakeFiles/cmTC_99421.dir/build
-Building CXX object CMakeFiles/cmTC_99421.dir/CheckIncludeFile.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register    -o CMakeFiles/cmTC_99421.dir/CheckIncludeFile.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Run Build Command:"/usr/bin/make" "cmTC_56b3f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_56b3f.dir/build.make CMakeFiles/cmTC_56b3f.dir/build
+Building CXX object CMakeFiles/cmTC_56b3f.dir/CheckIncludeFile.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register    -o CMakeFiles/cmTC_56b3f.dir/CheckIncludeFile.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
 In file included from /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
 /Library/Developer/CommandLineTools/usr/include/c++/v1/ext/hash_set:205:5: warning: Use of the header <ext/hash_set> is deprecated.  Migrate to <unordered_set> [-W#warnings]
 #   warning Use of the header <ext/hash_set> is deprecated.  Migrate to <unordered_set>
     ^
 1 warning generated.
-Linking CXX executable cmTC_99421
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99421.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_99421.dir/CheckIncludeFile.cxx.o  -o cmTC_99421 
+Linking CXX executable cmTC_56b3f
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56b3f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_56b3f.dir/CheckIncludeFile.cxx.o  -o cmTC_56b3f 
 
 
 Determining if the include file unordered_map exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e6127/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e6127.dir/build.make CMakeFiles/cmTC_e6127.dir/build
-Building CXX object CMakeFiles/cmTC_e6127.dir/CheckIncludeFile.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register    -o CMakeFiles/cmTC_e6127.dir/CheckIncludeFile.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_e6127
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6127.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e6127.dir/CheckIncludeFile.cxx.o  -o cmTC_e6127 
+Run Build Command:"/usr/bin/make" "cmTC_94a20/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_94a20.dir/build.make CMakeFiles/cmTC_94a20.dir/build
+Building CXX object CMakeFiles/cmTC_94a20.dir/CheckIncludeFile.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register    -o CMakeFiles/cmTC_94a20.dir/CheckIncludeFile.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_94a20
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94a20.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_94a20.dir/CheckIncludeFile.cxx.o  -o cmTC_94a20 
 
 
 Determining if the include file unordered_set exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_189a0/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_189a0.dir/build.make CMakeFiles/cmTC_189a0.dir/build
-Building CXX object CMakeFiles/cmTC_189a0.dir/CheckIncludeFile.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register    -o CMakeFiles/cmTC_189a0.dir/CheckIncludeFile.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_189a0
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_189a0.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_189a0.dir/CheckIncludeFile.cxx.o  -o cmTC_189a0 
+Run Build Command:"/usr/bin/make" "cmTC_db703/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_db703.dir/build.make CMakeFiles/cmTC_db703.dir/build
+Building CXX object CMakeFiles/cmTC_db703.dir/CheckIncludeFile.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register    -o CMakeFiles/cmTC_db703.dir/CheckIncludeFile.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_db703
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db703.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_db703.dir/CheckIncludeFile.cxx.o  -o cmTC_db703 
 
 
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aaf37/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_aaf37.dir/build.make CMakeFiles/cmTC_aaf37.dir/build
-Building C object CMakeFiles/cmTC_aaf37.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_aaf37.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_aaf37
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aaf37.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_aaf37.dir/CheckIncludeFile.c.o  -o cmTC_aaf37 
+Run Build Command:"/usr/bin/make" "cmTC_b7182/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b7182.dir/build.make CMakeFiles/cmTC_b7182.dir/build
+Building C object CMakeFiles/cmTC_b7182.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_b7182.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b7182
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7182.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b7182.dir/CheckIncludeFile.c.o  -o cmTC_b7182 
 
 
 Determining size of u_int16_t passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_190b1/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_190b1.dir/build.make CMakeFiles/cmTC_190b1.dir/build
-Building C object CMakeFiles/cmTC_190b1.dir/HAVE_U_INT16_T.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_190b1.dir/HAVE_U_INT16_T.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE_U_INT16_T.c
-Linking C executable cmTC_190b1
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_190b1.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_190b1.dir/HAVE_U_INT16_T.c.o  -o cmTC_190b1 
+Run Build Command:"/usr/bin/make" "cmTC_de056/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_de056.dir/build.make CMakeFiles/cmTC_de056.dir/build
+Building C object CMakeFiles/cmTC_de056.dir/HAVE_U_INT16_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_de056.dir/HAVE_U_INT16_T.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE_U_INT16_T.c
+Linking C executable cmTC_de056
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de056.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_de056.dir/HAVE_U_INT16_T.c.o  -o cmTC_de056 
 
 
 Determining size of uint16_t passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8e152/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8e152.dir/build.make CMakeFiles/cmTC_8e152.dir/build
-Building C object CMakeFiles/cmTC_8e152.dir/HAVE_UINT16_T.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_8e152.dir/HAVE_UINT16_T.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.c
-Linking C executable cmTC_8e152
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e152.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8e152.dir/HAVE_UINT16_T.c.o  -o cmTC_8e152 
+Run Build Command:"/usr/bin/make" "cmTC_229e0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_229e0.dir/build.make CMakeFiles/cmTC_229e0.dir/build
+Building C object CMakeFiles/cmTC_229e0.dir/HAVE_UINT16_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_229e0.dir/HAVE_UINT16_T.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.c
+Linking C executable cmTC_229e0
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_229e0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_229e0.dir/HAVE_UINT16_T.c.o  -o cmTC_229e0 
 
 
 Determining if the function dladdr exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ef5dd/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ef5dd.dir/build.make CMakeFiles/cmTC_ef5dd.dir/build
-Building C object CMakeFiles/cmTC_ef5dd.dir/CheckFunctionExists.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dladdr   -o CMakeFiles/cmTC_ef5dd.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ef5dd
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef5dd.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dladdr -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ef5dd.dir/CheckFunctionExists.c.o  -o cmTC_ef5dd 
+Run Build Command:"/usr/bin/make" "cmTC_441f2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_441f2.dir/build.make CMakeFiles/cmTC_441f2.dir/build
+Building C object CMakeFiles/cmTC_441f2.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dladdr   -o CMakeFiles/cmTC_441f2.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.10.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_441f2
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_441f2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dladdr -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_441f2.dir/CheckFunctionExists.c.o  -o cmTC_441f2 
 
 
 Determining if the function fcntl exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0efa0/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0efa0.dir/build.make CMakeFiles/cmTC_0efa0.dir/build
-Building C object CMakeFiles/cmTC_0efa0.dir/CheckFunctionExists.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fcntl   -o CMakeFiles/cmTC_0efa0.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_0efa0
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0efa0.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fcntl -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0efa0.dir/CheckFunctionExists.c.o  -o cmTC_0efa0 
+Run Build Command:"/usr/bin/make" "cmTC_ee00a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ee00a.dir/build.make CMakeFiles/cmTC_ee00a.dir/build
+Building C object CMakeFiles/cmTC_ee00a.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fcntl   -o CMakeFiles/cmTC_ee00a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.10.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ee00a
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee00a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fcntl -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ee00a.dir/CheckFunctionExists.c.o  -o cmTC_ee00a 
 
 
 Determining if the function pread exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3c80c/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3c80c.dir/build.make CMakeFiles/cmTC_3c80c.dir/build
-Building C object CMakeFiles/cmTC_3c80c.dir/CheckFunctionExists.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pread   -o CMakeFiles/cmTC_3c80c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3c80c
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c80c.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pread -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3c80c.dir/CheckFunctionExists.c.o  -o cmTC_3c80c 
+Run Build Command:"/usr/bin/make" "cmTC_7f52c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7f52c.dir/build.make CMakeFiles/cmTC_7f52c.dir/build
+Building C object CMakeFiles/cmTC_7f52c.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pread   -o CMakeFiles/cmTC_7f52c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.10.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7f52c
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f52c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pread -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7f52c.dir/CheckFunctionExists.c.o  -o cmTC_7f52c 
 
 
 Determining if the function pwrite exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_adcb4/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_adcb4.dir/build.make CMakeFiles/cmTC_adcb4.dir/build
-Building C object CMakeFiles/cmTC_adcb4.dir/CheckFunctionExists.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pwrite   -o CMakeFiles/cmTC_adcb4.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_adcb4
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adcb4.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pwrite -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_adcb4.dir/CheckFunctionExists.c.o  -o cmTC_adcb4 
+Run Build Command:"/usr/bin/make" "cmTC_ec5bc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ec5bc.dir/build.make CMakeFiles/cmTC_ec5bc.dir/build
+Building C object CMakeFiles/cmTC_ec5bc.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pwrite   -o CMakeFiles/cmTC_ec5bc.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.10.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ec5bc
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec5bc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pwrite -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ec5bc.dir/CheckFunctionExists.c.o  -o cmTC_ec5bc 
 
 
 Determining if the function sigaction exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_83475/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_83475.dir/build.make CMakeFiles/cmTC_83475.dir/build
-Building C object CMakeFiles/cmTC_83475.dir/CheckFunctionExists.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTC_83475.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_83475
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83475.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaction -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_83475.dir/CheckFunctionExists.c.o  -o cmTC_83475 
+Run Build Command:"/usr/bin/make" "cmTC_76a77/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_76a77.dir/build.make CMakeFiles/cmTC_76a77.dir/build
+Building C object CMakeFiles/cmTC_76a77.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTC_76a77.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.10.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_76a77
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76a77.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaction -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_76a77.dir/CheckFunctionExists.c.o  -o cmTC_76a77 
 
 
 Determining if the function sigaltstack exists passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9fe6e/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9fe6e.dir/build.make CMakeFiles/cmTC_9fe6e.dir/build
-Building C object CMakeFiles/cmTC_9fe6e.dir/CheckFunctionExists.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaltstack   -o CMakeFiles/cmTC_9fe6e.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9fe6e
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fe6e.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaltstack -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9fe6e.dir/CheckFunctionExists.c.o  -o cmTC_9fe6e 
+Run Build Command:"/usr/bin/make" "cmTC_36511/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_36511.dir/build.make CMakeFiles/cmTC_36511.dir/build
+Building C object CMakeFiles/cmTC_36511.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaltstack   -o CMakeFiles/cmTC_36511.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.10.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_36511
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36511.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaltstack -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_36511.dir/CheckFunctionExists.c.o  -o cmTC_36511 
 
 
 Performing C++ SOURCE FILE Test HAVE_NO_DEPRECATED succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_da36b/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_da36b.dir/build.make CMakeFiles/cmTC_da36b.dir/build
-Building CXX object CMakeFiles/cmTC_da36b.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_NO_DEPRECATED   -Wno-deprecated -o CMakeFiles/cmTC_da36b.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_da36b
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da36b.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_NO_DEPRECATED -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_da36b.dir/src.cxx.o  -o cmTC_da36b 
+Run Build Command:"/usr/bin/make" "cmTC_23bb8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_23bb8.dir/build.make CMakeFiles/cmTC_23bb8.dir/build
+Building CXX object CMakeFiles/cmTC_23bb8.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_NO_DEPRECATED   -Wno-deprecated -o CMakeFiles/cmTC_23bb8.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_23bb8
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23bb8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_NO_DEPRECATED -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_23bb8.dir/src.cxx.o  -o cmTC_23bb8 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a9eb3/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a9eb3.dir/build.make CMakeFiles/cmTC_a9eb3.dir/build
-Building CXX object CMakeFiles/cmTC_a9eb3.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS   -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_a9eb3.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_a9eb3
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9eb3.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a9eb3.dir/src.cxx.o  -o cmTC_a9eb3 
+Run Build Command:"/usr/bin/make" "cmTC_0a384/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0a384.dir/build.make CMakeFiles/cmTC_0a384.dir/build
+Building CXX object CMakeFiles/cmTC_0a384.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS   -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_0a384.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0a384
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a384.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0a384.dir/src.cxx.o  -o cmTC_0a384 
 
 Source file was:
 int main() { return 0; }
 Determining if the snprintf exist passed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c5e4f/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c5e4f.dir/build.make CMakeFiles/cmTC_c5e4f.dir/build
-Building C object CMakeFiles/cmTC_c5e4f.dir/CheckSymbolExists.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_c5e4f.dir/CheckSymbolExists.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_c5e4f
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5e4f.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c5e4f.dir/CheckSymbolExists.c.o  -o cmTC_c5e4f 
+Run Build Command:"/usr/bin/make" "cmTC_486d9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_486d9.dir/build.make CMakeFiles/cmTC_486d9.dir/build
+Building C object CMakeFiles/cmTC_486d9.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_486d9.dir/CheckSymbolExists.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_486d9
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_486d9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_486d9.dir/CheckSymbolExists.c.o  -o cmTC_486d9 
 
 File /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -1248,13 +1248,13 @@ int main(int argc, char** argv)
 Performing C SOURCE FILE Test HAVE___ATTRIBUTE__ succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d5e37/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d5e37.dir/build.make CMakeFiles/cmTC_d5e37.dir/build
-Building C object CMakeFiles/cmTC_d5e37.dir/src.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE___ATTRIBUTE__   -o CMakeFiles/cmTC_d5e37.dir/src.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_d5e37
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5e37.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE___ATTRIBUTE__ -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d5e37.dir/src.c.o  -o cmTC_d5e37 
+Run Build Command:"/usr/bin/make" "cmTC_a0a7c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a0a7c.dir/build.make CMakeFiles/cmTC_a0a7c.dir/build
+Building C object CMakeFiles/cmTC_a0a7c.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE___ATTRIBUTE__   -o CMakeFiles/cmTC_a0a7c.dir/src.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a0a7c
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0a7c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE___ATTRIBUTE__ -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a0a7c.dir/src.c.o  -o cmTC_a0a7c 
 
 Source file was:
 
@@ -1265,13 +1265,13 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_028e8/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_028e8.dir/build.make CMakeFiles/cmTC_028e8.dir/build
-Building C object CMakeFiles/cmTC_028e8.dir/src.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT   -o CMakeFiles/cmTC_028e8.dir/src.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_028e8
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_028e8.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_028e8.dir/src.c.o  -o cmTC_028e8 
+Run Build Command:"/usr/bin/make" "cmTC_fa481/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fa481.dir/build.make CMakeFiles/cmTC_fa481.dir/build
+Building C object CMakeFiles/cmTC_fa481.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT   -o CMakeFiles/cmTC_fa481.dir/src.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fa481
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa481.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fa481.dir/src.c.o  -o cmTC_fa481 
 
 Source file was:
 
@@ -1282,13 +1282,13 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c3ad7/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c3ad7.dir/build.make CMakeFiles/cmTC_c3ad7.dir/build
-Building C object CMakeFiles/cmTC_c3ad7.dir/src.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN   -o CMakeFiles/cmTC_c3ad7.dir/src.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_c3ad7
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3ad7.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c3ad7.dir/src.c.o  -o cmTC_c3ad7 
+Run Build Command:"/usr/bin/make" "cmTC_2afe8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2afe8.dir/build.make CMakeFiles/cmTC_2afe8.dir/build
+Building C object CMakeFiles/cmTC_2afe8.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN   -o CMakeFiles/cmTC_2afe8.dir/src.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2afe8
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2afe8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2afe8.dir/src.c.o  -o cmTC_2afe8 
 
 Source file was:
 
@@ -1299,13 +1299,13 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE___BUILTIN_EXPECT succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b278a/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b278a.dir/build.make CMakeFiles/cmTC_b278a.dir/build
-Building C object CMakeFiles/cmTC_b278a.dir/src.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE___BUILTIN_EXPECT   -o CMakeFiles/cmTC_b278a.dir/src.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_b278a
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b278a.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE___BUILTIN_EXPECT -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b278a.dir/src.c.o  -o cmTC_b278a 
+Run Build Command:"/usr/bin/make" "cmTC_872a9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_872a9.dir/build.make CMakeFiles/cmTC_872a9.dir/build
+Building C object CMakeFiles/cmTC_872a9.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE___BUILTIN_EXPECT   -o CMakeFiles/cmTC_872a9.dir/src.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_872a9
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_872a9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE___BUILTIN_EXPECT -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_872a9.dir/src.c.o  -o cmTC_872a9 
 
 Source file was:
 
@@ -1314,13 +1314,13 @@ int main(void) { if (__builtin_expect(0, 0)) return 1; return 0; }
 Performing C SOURCE FILE Test HAVE___SYNC_VAL_COMPARE_AND_SWAP succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5482d/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5482d.dir/build.make CMakeFiles/cmTC_5482d.dir/build
-Building C object CMakeFiles/cmTC_5482d.dir/src.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE___SYNC_VAL_COMPARE_AND_SWAP   -o CMakeFiles/cmTC_5482d.dir/src.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_5482d
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5482d.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE___SYNC_VAL_COMPARE_AND_SWAP -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5482d.dir/src.c.o  -o cmTC_5482d 
+Run Build Command:"/usr/bin/make" "cmTC_195e6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_195e6.dir/build.make CMakeFiles/cmTC_195e6.dir/build
+Building C object CMakeFiles/cmTC_195e6.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE___SYNC_VAL_COMPARE_AND_SWAP   -o CMakeFiles/cmTC_195e6.dir/src.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_195e6
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_195e6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE___SYNC_VAL_COMPARE_AND_SWAP -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_195e6.dir/src.c.o  -o cmTC_195e6 
 
 Source file was:
 
@@ -1332,13 +1332,13 @@ int main(void)
 Performing C SOURCE FILE Test HAVE_RWLOCK succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fb737/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fb737.dir/build.make CMakeFiles/cmTC_fb737.dir/build
-Building C object CMakeFiles/cmTC_fb737.dir/src.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_RWLOCK   -o CMakeFiles/cmTC_fb737.dir/src.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_fb737
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb737.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE_RWLOCK -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fb737.dir/src.c.o  -o cmTC_fb737 
+Run Build Command:"/usr/bin/make" "cmTC_cb24c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cb24c.dir/build.make CMakeFiles/cmTC_cb24c.dir/build
+Building C object CMakeFiles/cmTC_cb24c.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_RWLOCK   -o CMakeFiles/cmTC_cb24c.dir/src.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cb24c
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb24c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE_RWLOCK -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cb24c.dir/src.c.o  -o cmTC_cb24c 
 
 Source file was:
 
@@ -1355,13 +1355,13 @@ int main(void)
 Performing C++ SOURCE FILE Test STL_STD_NAMESPACE succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c39e9/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c39e9.dir/build.make CMakeFiles/cmTC_c39e9.dir/build
-Building CXX object CMakeFiles/cmTC_c39e9.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DSTL_STD_NAMESPACE   -o CMakeFiles/cmTC_c39e9.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_c39e9
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c39e9.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DSTL_STD_NAMESPACE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c39e9.dir/src.cxx.o  -o cmTC_c39e9 
+Run Build Command:"/usr/bin/make" "cmTC_2a9eb/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2a9eb.dir/build.make CMakeFiles/cmTC_2a9eb.dir/build
+Building CXX object CMakeFiles/cmTC_2a9eb.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DSTL_STD_NAMESPACE   -o CMakeFiles/cmTC_2a9eb.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2a9eb
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a9eb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DSTL_STD_NAMESPACE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2a9eb.dir/src.cxx.o  -o cmTC_2a9eb 
 
 Source file was:
 
@@ -1371,13 +1371,13 @@ std::vector<int> t; int main() { }
 Performing C++ SOURCE FILE Test HAVE_USING_OPERATOR succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1af33/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1af33.dir/build.make CMakeFiles/cmTC_1af33.dir/build
-Building CXX object CMakeFiles/cmTC_1af33.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_USING_OPERATOR   -o CMakeFiles/cmTC_1af33.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_1af33
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1af33.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_USING_OPERATOR -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1af33.dir/src.cxx.o  -o cmTC_1af33 
+Run Build Command:"/usr/bin/make" "cmTC_a65ec/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a65ec.dir/build.make CMakeFiles/cmTC_a65ec.dir/build
+Building CXX object CMakeFiles/cmTC_a65ec.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_USING_OPERATOR   -o CMakeFiles/cmTC_a65ec.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a65ec
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a65ec.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_USING_OPERATOR -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a65ec.dir/src.cxx.o  -o cmTC_a65ec 
 
 Source file was:
 
@@ -1389,13 +1389,13 @@ int main() { }
 Performing C++ SOURCE FILE Test HAVE_NAMESPACES succeeded with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f1a1b/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f1a1b.dir/build.make CMakeFiles/cmTC_f1a1b.dir/build
-Building CXX object CMakeFiles/cmTC_f1a1b.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_NAMESPACES   -o CMakeFiles/cmTC_f1a1b.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_f1a1b
-/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1a1b.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_NAMESPACES -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f1a1b.dir/src.cxx.o  -o cmTC_f1a1b 
+Run Build Command:"/usr/bin/make" "cmTC_f3721/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f3721.dir/build.make CMakeFiles/cmTC_f3721.dir/build
+Building CXX object CMakeFiles/cmTC_f3721.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_NAMESPACES   -o CMakeFiles/cmTC_f3721.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f3721
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3721.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -Wno-deprecated-register -DHAVE_NAMESPACES -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f3721.dir/src.cxx.o  -o cmTC_f3721 
 
 Source file was:
 

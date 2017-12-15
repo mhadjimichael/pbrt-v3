@@ -62,6 +62,38 @@ class Film {
          std::unique_ptr<Filter> filter, Float diagonal,
          const std::string &filename, Float scale,
          Float maxSampleLuminance = Infinity);
+
+    /* Modified Constructor for ptaas 
+    Film(const Point2i &resolution, const Bounds2i &cropPixels,
+         std::unique_ptr<Filter> filt, Float diagonal,
+         const std::string &filename, Float scale,
+         Float maxSampleLuminance = Infinity) : 
+         fullResolution(resolution),
+         diagonal(diagonal * .001),
+         filter(std::move(filt)),
+         filename(filename),
+         scale(scale),
+         maxSampleLuminance(maxSampleLuminance) {
+            // Compute film image bounds
+            croppedPixelBounds = cropPixels;
+
+
+            // Allocate film image storage
+            pixels = std::unique_ptr<Pixel[]>(new Pixel[croppedPixelBounds.Area()]);
+
+            // Precompute filter weight table
+            int offset = 0;
+            for (int y = 0; y < filterTableWidth; ++y) {
+                for (int x = 0; x < filterTableWidth; ++x, ++offset) {
+                    Point2f p;
+                    p.x = (x + 0.5f) * filter->radius.x / filterTableWidth;
+                    p.y = (y + 0.5f) * filter->radius.y / filterTableWidth;
+                    filterTable[offset] = filter->Evaluate(p);
+                }
+            }
+    }
+    */
+    
     Bounds2i GetSampleBounds() const;
     Bounds2f GetPhysicalExtent() const;
     std::unique_ptr<FilmTile> GetFilmTile(const Bounds2i &sampleBounds);
@@ -70,6 +102,9 @@ class Film {
     void AddSplat(const Point2f &p, Spectrum v);
     void WriteImage(Float splatScale = 1);
     void Clear();
+    // ptaas addition
+    //void MergeImage(Float weightMe, Film *otherFilm);
+    void MergeImage(Float weightMe, Float *otherRgb);
 
     // Film Public Data
     const Point2i fullResolution;
@@ -77,6 +112,18 @@ class Film {
     std::unique_ptr<Filter> filter;
     const std::string filename;
     Bounds2i croppedPixelBounds;
+
+    // ptaas
+
+    std::unique_ptr<Float[]> rgb;
+
+/*
+    Film clone() const {
+        Film myClone = new Film(fullResolution, croppedPixelBounds, filter, diagonal, filename, scale, maxSampleLuminance);
+
+        return myClone;
+    }
+    */
 
   private:
     // Film Private Data

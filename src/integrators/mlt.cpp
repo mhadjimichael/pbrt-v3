@@ -105,6 +105,7 @@ void MLTSampler::EnsureReady(int index) {
         // $\VEC{X}_i$
         Float effSigma = sigma * std::sqrt((Float)nSmall);
         Xi.value += normalSample * effSigma;
+        // Keep within [0,1)
         Xi.value -= std::floor(Xi.value);
     }
     Xi.lastModificationIteration = currentIteration;

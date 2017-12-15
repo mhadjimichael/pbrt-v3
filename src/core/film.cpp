@@ -169,7 +169,10 @@ void Film::WriteImage(Float splatScale) {
     // Convert image to RGB and compute final pixel values
     LOG(INFO) <<
         "Converting image to RGB and computing final weighted pixel values";
+    //std::unique_ptr<Float[]> myRgb(new Float[3 * croppedPixelBounds.Area()]);
     std::unique_ptr<Float[]> rgb(new Float[3 * croppedPixelBounds.Area()]);
+    
+
     int offset = 0;
     for (Point2i p : croppedPixelBounds) {
         // Convert pixel XYZ color to RGB
@@ -200,6 +203,44 @@ void Film::WriteImage(Float splatScale) {
         rgb[3 * offset] *= scale;
         rgb[3 * offset + 1] *= scale;
         rgb[3 * offset + 2] *= scale;
+        ++offset;
+    }
+
+    // Write RGB image
+    LOG(INFO) << "Writing image " << filename << " with bounds " <<
+        croppedPixelBounds;
+
+    pbrt::WriteImage(filename, &rgb[0], croppedPixelBounds, fullResolution);
+    this->rgb = std::move(rgb);
+}
+
+//void Film::MergeImage(Float weightMe, Film *otherFilm) {
+void Film::MergeImage(Float weightMe, Float *otherRgb) {
+    // Convert image to RGB and compute final pixel values
+    LOG(ERROR) <<
+        "Converting image to RGB and computing final weighted pixel values";
+    //std::unique_ptr<Float[]> rgb(new Float[3 * croppedPixelBounds.Area()]);
+    //std::unique_ptr<Float[]> rgb = std::move(myRgb);
+
+    std::cout << "HERE" << std::endl;
+
+    int offset = 0;
+    for (Point2i p : croppedPixelBounds) {
+        // Scale pixel value by _scale_
+        rgb[3 * offset] *= weightMe;
+        rgb[3 * offset + 1] *= weightMe;
+        rgb[3 * offset + 2] *= weightMe;
+
+        std::cout << "HER2" << std::endl;
+        
+        otherRgb[3 * offset] *= 1.0f-weightMe;
+        otherRgb[3 * offset + 1] *= 1.0f-weightMe;
+        otherRgb[3 * offset + 2] *= 1.0f-weightMe;
+
+        rgb[3 * offset] += otherRgb[3 * offset];
+        rgb[3 * offset + 1] += otherRgb[3 * offset + 1];
+        rgb[3 * offset + 2] += otherRgb[3 * offset + 2];
+
         ++offset;
     }
 

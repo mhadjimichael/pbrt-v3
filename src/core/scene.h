@@ -72,6 +72,12 @@ class Scene {
     // to loop over them.
     std::vector<std::shared_ptr<Light>> infiniteLights;
 
+    // @PTaaS
+    /*Scene clone() const {
+      Scene *c = new Scene(aggregate, lights);
+      return *c;
+    }*/
+
   private:
     // Scene Private Data
     std::shared_ptr<Primitive> aggregate;
