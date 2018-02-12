@@ -1,20 +1,15 @@
 Performing C++ SOURCE FILE Test HAVE_DECLSPEC_NOINLINE failed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f40d9/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f40d9.dir/build.make CMakeFiles/cmTC_f40d9.dir/build
-Building CXX object CMakeFiles/cmTC_f40d9.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_DECLSPEC_NOINLINE   -o CMakeFiles/cmTC_f40d9.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:1:1: error: unknown type name '__declspec'
-__declspec(noinline) void foo() { }
-^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:1:21: error: expected ';' after top level declarator
-__declspec(noinline) void foo() { }
-                    ^
-                    ;
-2 errors generated.
-make[1]: *** [CMakeFiles/cmTC_f40d9.dir/src.cxx.o] Error 1
-make: *** [cmTC_f40d9/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_fbb9e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fbb9e.dir/build.make CMakeFiles/cmTC_fbb9e.dir/build
+Building CXX object CMakeFiles/cmTC_fbb9e.dir/src.cxx.o
+/usr/local/bin/g++    -std=gnu++11 -Wno-conversion-null -DHAVE_DECLSPEC_NOINLINE   -o CMakeFiles/cmTC_fbb9e.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:1:11: error: expected constructor, destructor, or type conversion before '(' token
+ __declspec(noinline) void foo() { }
+           ^
+make[1]: *** [CMakeFiles/cmTC_fbb9e.dir/src.cxx.o] Error 1
+make: *** [cmTC_fbb9e/fast] Error 2
 
 Source file was:
 __declspec(noinline) void foo() { }
@@ -22,16 +17,14 @@ int main() { }
 Performing C++ SOURCE FILE Test HAVE__ALIGNED_MALLOC failed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a110f/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a110f.dir/build.make CMakeFiles/cmTC_a110f.dir/build
-Building CXX object CMakeFiles/cmTC_a110f.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE__ALIGNED_MALLOC   -o CMakeFiles/cmTC_a110f.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'malloc.h' file not found
-#include <malloc.h>
-         ^~~~~~~~~~
-1 error generated.
-make[1]: *** [CMakeFiles/cmTC_a110f.dir/src.cxx.o] Error 1
-make: *** [cmTC_a110f/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_7757d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7757d.dir/build.make CMakeFiles/cmTC_7757d.dir/build
+Building CXX object CMakeFiles/cmTC_7757d.dir/src.cxx.o
+/usr/local/bin/g++    -std=gnu++11 -Wno-conversion-null -DHAVE__ALIGNED_MALLOC   -o CMakeFiles/cmTC_7757d.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:20: fatal error: malloc.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_7757d.dir/src.cxx.o] Error 1
+make: *** [cmTC_7757d/fast] Error 2
 
 Source file was:
 
@@ -41,16 +34,14 @@ int main() { void * ptr = _aligned_malloc(1024, 32); }
 Performing C++ SOURCE FILE Test HAVE_MEMALIGN failed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7d83d/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7d83d.dir/build.make CMakeFiles/cmTC_7d83d.dir/build
-Building CXX object CMakeFiles/cmTC_7d83d.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_MEMALIGN   -o CMakeFiles/cmTC_7d83d.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'malloc.h' file not found
-#include <malloc.h>
-         ^~~~~~~~~~
-1 error generated.
-make[1]: *** [CMakeFiles/cmTC_7d83d.dir/src.cxx.o] Error 1
-make: *** [cmTC_7d83d/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_4277e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4277e.dir/build.make CMakeFiles/cmTC_4277e.dir/build
+Building CXX object CMakeFiles/cmTC_4277e.dir/src.cxx.o
+/usr/local/bin/g++    -std=gnu++11 -Wno-conversion-null -DHAVE_MEMALIGN   -o CMakeFiles/cmTC_4277e.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:20: fatal error: malloc.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_4277e.dir/src.cxx.o] Error 1
+make: *** [cmTC_4277e/fast] Error 2
 
 Source file was:
 
@@ -61,20 +52,15 @@ int main() {
 Performing C++ SOURCE FILE Test HAVE_DECLSPEC_THREAD failed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fbc1a/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fbc1a.dir/build.make CMakeFiles/cmTC_fbc1a.dir/build
-Building CXX object CMakeFiles/cmTC_fbc1a.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_DECLSPEC_THREAD   -o CMakeFiles/cmTC_fbc1a.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:1: error: unknown type name '__declspec'
-__declspec(thread) int x; int main() { }
-^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:19: error: expected ';' after top level declarator
-__declspec(thread) int x; int main() { }
-                  ^
-                  ;
-2 errors generated.
-make[1]: *** [CMakeFiles/cmTC_fbc1a.dir/src.cxx.o] Error 1
-make: *** [cmTC_fbc1a/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_2b6d8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2b6d8.dir/build.make CMakeFiles/cmTC_2b6d8.dir/build
+Building CXX object CMakeFiles/cmTC_2b6d8.dir/src.cxx.o
+/usr/local/bin/g++    -std=gnu++11 -Wno-conversion-null -DHAVE_DECLSPEC_THREAD   -o CMakeFiles/cmTC_2b6d8.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:11: error: expected constructor, destructor, or type conversion before '(' token
+ __declspec(thread) int x; int main() { }
+           ^
+make[1]: *** [CMakeFiles/cmTC_2b6d8.dir/src.cxx.o] Error 1
+make: *** [cmTC_2b6d8/fast] Error 2
 
 Source file was:
 
@@ -83,139 +69,88 @@ __declspec(thread) int x; int main() { }
 Determining if the include file syscall.h exists failed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a16ec/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a16ec.dir/build.make CMakeFiles/cmTC_a16ec.dir/build
-Building C object CMakeFiles/cmTC_a16ec.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_a16ec.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'syscall.h' file not found
-#include <syscall.h>
-         ^~~~~~~~~~~
-1 error generated.
-make[1]: *** [CMakeFiles/cmTC_a16ec.dir/CheckIncludeFile.c.o] Error 1
-make: *** [cmTC_a16ec/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_921c0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_921c0.dir/build.make CMakeFiles/cmTC_921c0.dir/build
+Building C object CMakeFiles/cmTC_921c0.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc    -o CMakeFiles/cmTC_921c0.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: syscall.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_921c0.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_921c0/fast] Error 2
+
+
+Determining if the include file syslog.h exists failed with the following output:
+Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89a94/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_89a94.dir/build.make CMakeFiles/cmTC_89a94.dir/build
+Building C object CMakeFiles/cmTC_89a94.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc    -o CMakeFiles/cmTC_89a94.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+In file included from /usr/include/sys/cdefs.h:587:0,
+                 from /usr/include/sys/syslog.h:65,
+                 from /usr/include/syslog.h:23,
+                 from /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:
+/usr/include/sys/syslog.h:227:124: error: expected ',' or ';' before '__asm'
+ void syslog(int, const char *, ...) __printflike(2, 3) __not_tail_called __DARWIN_ALIAS_STARTING(__MAC_10_13, __IPHONE_NA, __DARWIN_EXTSN(syslog));
+                                                                                                                            ^
+make[1]: *** [CMakeFiles/cmTC_89a94.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_89a94/fast] Error 2
 
 
 Determining if the include file ucontext.h exists failed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1c68e/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1c68e.dir/build.make CMakeFiles/cmTC_1c68e.dir/build
-Building C object CMakeFiles/cmTC_1c68e.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_1c68e.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-In file included from /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:
-/usr/include/ucontext.h:43:2: error: The deprecated ucontext routines require _XOPEN_SOURCE to be defined
-#error The deprecated ucontext routines require _XOPEN_SOURCE to be defined
- ^
-1 error generated.
-make[1]: *** [CMakeFiles/cmTC_1c68e.dir/CheckIncludeFile.c.o] Error 1
-make: *** [cmTC_1c68e/fast] Error 2
-
-
-Determining if the include file ext/slist exists failed with the following output:
-Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_dd904/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dd904.dir/build.make CMakeFiles/cmTC_dd904.dir/build
-Building CXX object CMakeFiles/cmTC_dd904.dir/CheckIncludeFile.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register    -o CMakeFiles/cmTC_dd904.dir/CheckIncludeFile.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'ext/slist' file not found
-#include <ext/slist>
-         ^~~~~~~~~~~
-1 error generated.
-make[1]: *** [CMakeFiles/cmTC_dd904.dir/CheckIncludeFile.cxx.o] Error 1
-make: *** [cmTC_dd904/fast] Error 2
-
-
-Determining if the include file tr1/unordered_map exists failed with the following output:
-Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_0e1b5/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0e1b5.dir/build.make CMakeFiles/cmTC_0e1b5.dir/build
-Building CXX object CMakeFiles/cmTC_0e1b5.dir/CheckIncludeFile.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register    -o CMakeFiles/cmTC_0e1b5.dir/CheckIncludeFile.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_map' file not found
-#include <tr1/unordered_map>
-         ^~~~~~~~~~~~~~~~~~~
-1 error generated.
-make[1]: *** [CMakeFiles/cmTC_0e1b5.dir/CheckIncludeFile.cxx.o] Error 1
-make: *** [cmTC_0e1b5/fast] Error 2
-
-
-Determining if the include file tr1/unordered_set exists failed with the following output:
-Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_af5ac/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_af5ac.dir/build.make CMakeFiles/cmTC_af5ac.dir/build
-Building CXX object CMakeFiles/cmTC_af5ac.dir/CheckIncludeFile.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register    -o CMakeFiles/cmTC_af5ac.dir/CheckIncludeFile.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_set' file not found
-#include <tr1/unordered_set>
-         ^~~~~~~~~~~~~~~~~~~
-1 error generated.
-make[1]: *** [CMakeFiles/cmTC_af5ac.dir/CheckIncludeFile.cxx.o] Error 1
-make: *** [cmTC_af5ac/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_eeb8a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_eeb8a.dir/build.make CMakeFiles/cmTC_eeb8a.dir/build
+Building C object CMakeFiles/cmTC_eeb8a.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc    -o CMakeFiles/cmTC_eeb8a.dir/CheckIncludeFile.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+In file included from /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:0:
+/usr/include/ucontext.h:43:2: error: #error The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+ #error The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+  ^
+make[1]: *** [CMakeFiles/cmTC_eeb8a.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_eeb8a/fast] Error 2
 
 
 Determining size of unsigned __int16 failed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_36205/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_36205.dir/build.make CMakeFiles/cmTC_36205.dir/build
-Building C object CMakeFiles/cmTC_36205.dir/HAVE___UINT16.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_36205.dir/HAVE___UINT16.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:25:12: error: expected ')'
-  ('0' + ((SIZE / 10000)%10)),
-           ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: note: expanded from macro 'SIZE'
-#define SIZE (sizeof(unsigned __int16))
-                              ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:25:12: note: to match this '('
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:21: note: expanded from macro 'SIZE'
-#define SIZE (sizeof(unsigned __int16))
-                    ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:26:12: error: expected ')'
-  ('0' + ((SIZE / 1000)%10)),
-           ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: note: expanded from macro 'SIZE'
-#define SIZE (sizeof(unsigned __int16))
-                              ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:26:12: note: to match this '('
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:21: note: expanded from macro 'SIZE'
-#define SIZE (sizeof(unsigned __int16))
-                    ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:12: error: expected ')'
-  ('0' + ((SIZE / 100)%10)),
-           ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: note: expanded from macro 'SIZE'
-#define SIZE (sizeof(unsigned __int16))
-                              ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:12: note: to match this '('
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:21: note: expanded from macro 'SIZE'
-#define SIZE (sizeof(unsigned __int16))
-                    ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:28:12: error: expected ')'
-  ('0' + ((SIZE / 10)%10)),
-           ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: note: expanded from macro 'SIZE'
-#define SIZE (sizeof(unsigned __int16))
-                              ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:28:12: note: to match this '('
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:21: note: expanded from macro 'SIZE'
-#define SIZE (sizeof(unsigned __int16))
-                    ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:29:12: error: expected ')'
-  ('0' +  (SIZE    % 10)),
-           ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: note: expanded from macro 'SIZE'
-#define SIZE (sizeof(unsigned __int16))
-                              ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:29:12: note: to match this '('
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:21: note: expanded from macro 'SIZE'
-#define SIZE (sizeof(unsigned __int16))
-                    ^
-5 errors generated.
-make[1]: *** [CMakeFiles/cmTC_36205.dir/HAVE___UINT16.c.o] Error 1
-make: *** [cmTC_36205/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_925a5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_925a5.dir/build.make CMakeFiles/cmTC_925a5.dir/build
+Building C object CMakeFiles/cmTC_925a5.dir/HAVE___UINT16.c.o
+/usr/local/bin/gcc    -o CMakeFiles/cmTC_925a5.dir/HAVE___UINT16.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ')' before '__int16'
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:25:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ')' before '__int16'
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:26:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 1000)%10)),
+            ^
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ')' before '__int16'
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 100)%10)),
+            ^
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ')' before '__int16'
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:28:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10)%10)),
+            ^
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ')' before '__int16'
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:29:12: note: in expansion of macro 'SIZE'
+   ('0' +  (SIZE    % 10)),
+            ^
+make[1]: *** [CMakeFiles/cmTC_925a5.dir/HAVE___UINT16.c.o] Error 1
+make: *** [cmTC_925a5/fast] Error 2
 
 /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:
 #include <sys/types.h>
@@ -269,42 +204,44 @@ int main(int argc, char *argv[])
 Determining if the function get_static_proc_name exists in the unwind failed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fd1bd/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fd1bd.dir/build.make CMakeFiles/cmTC_fd1bd.dir/build
-Building C object CMakeFiles/cmTC_fd1bd.dir/CheckFunctionExists.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=get_static_proc_name   -o CMakeFiles/cmTC_fd1bd.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.10.0/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_fd1bd
-/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd1bd.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=get_static_proc_name -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fd1bd.dir/CheckFunctionExists.c.o  -o cmTC_fd1bd -lunwind 
+Run Build Command:"/usr/bin/make" "cmTC_60491/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_60491.dir/build.make CMakeFiles/cmTC_60491.dir/build
+Building C object CMakeFiles/cmTC_60491.dir/CheckFunctionExists.c.o
+/usr/local/bin/gcc   -DCHECK_FUNCTION_EXISTS=get_static_proc_name   -o CMakeFiles/cmTC_60491.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.10.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_60491
+/usr/local/Cellar/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60491.dir/link.txt --verbose=1
+/usr/local/bin/gcc  -DCHECK_FUNCTION_EXISTS=get_static_proc_name -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_60491.dir/CheckFunctionExists.c.o  -o cmTC_60491 -lunwind 
 ld: library not found for -lunwind
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make[1]: *** [cmTC_fd1bd] Error 1
-make: *** [cmTC_fd1bd/fast] Error 2
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_60491] Error 1
+make: *** [cmTC_60491/fast] Error 2
 
 
 Performing C SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e27e4/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e27e4.dir/build.make CMakeFiles/cmTC_e27e4.dir/build
-Building C object CMakeFiles/cmTC_e27e4.dir/src.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE___DECLSPEC   -o CMakeFiles/cmTC_e27e4.dir/src.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c:2:27: error: parameter named 'a' is missing
-__declspec(selectany) int a;
-                          ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c:3:5: error: parameter named 'main' is missing
-int main(void) { return 0; }
-    ^
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c:3:15: error: expected ';' at end of declaration
-int main(void) { return 0; }
-              ^
-              ;
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c:2:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
-__declspec(selectany) int a;
-^
-1 warning and 3 errors generated.
-make[1]: *** [CMakeFiles/cmTC_e27e4.dir/src.c.o] Error 1
-make: *** [cmTC_e27e4/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_ab969/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ab969.dir/build.make CMakeFiles/cmTC_ab969.dir/build
+Building C object CMakeFiles/cmTC_ab969.dir/src.c.o
+/usr/local/bin/gcc   -DHAVE___DECLSPEC   -o CMakeFiles/cmTC_ab969.dir/src.c.o   -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c:2:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ __declspec(selectany) int a;
+ ^
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c: In function '__declspec':
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c:3:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ int main(void) { return 0; }
+                ^
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c:2:1: warning: type of 'selectany' defaults to 'int' [-Wimplicit-int]
+ __declspec(selectany) int a;
+ ^
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c:2:27: error: declaration for parameter 'a' but no such parameter
+ __declspec(selectany) int a;
+                           ^
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.c:3:16: error: expected '{' at end of input
+ int main(void) { return 0; }
+                ^
+make[1]: *** [CMakeFiles/cmTC_ab969.dir/src.c.o] Error 1
+make: *** [cmTC_ab969/fast] Error 2
 
 Source file was:
 
@@ -314,20 +251,15 @@ int main(void) { return 0; }
 Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
 Change Dir: /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9eeab/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9eeab.dir/build.make CMakeFiles/cmTC_9eeab.dir/build
-Building CXX object CMakeFiles/cmTC_9eeab.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DSTL_NO_NAMESPACE   -o CMakeFiles/cmTC_9eeab.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
-/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:3:1: error: no template named 'vector'; did you mean 'std::vector'?
-vector<int> t; int main() { }
-^~~~~~
-std::vector
-/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:450:28: note: 'std::vector' declared here
-class _LIBCPP_TEMPLATE_VIS vector
-                           ^
-1 error generated.
-make[1]: *** [CMakeFiles/cmTC_9eeab.dir/src.cxx.o] Error 1
-make: *** [cmTC_9eeab/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_ca0dd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ca0dd.dir/build.make CMakeFiles/cmTC_ca0dd.dir/build
+Building CXX object CMakeFiles/cmTC_ca0dd.dir/src.cxx.o
+/usr/local/bin/g++    -std=gnu++11 -Wno-conversion-null -DSTL_NO_NAMESPACE   -o CMakeFiles/cmTC_ca0dd.dir/src.cxx.o -c /Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+/Users/marios/PTaaS/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:3:1: error: 'vector' does not name a type
+ vector<int> t; int main() { }
+ ^
+make[1]: *** [CMakeFiles/cmTC_ca0dd.dir/src.cxx.o] Error 1
+make: *** [cmTC_ca0dd/fast] Error 2
 
 Source file was:
 

@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.10.0/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.10.2/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.10.0/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.10.2/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -60,15 +60,15 @@ include CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/analytic_scenes.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/analytic_scenes.cpp.o: src/tests/analytic_scenes.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/analytic_scenes.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/analytic_scenes.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/analytic_scenes.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/analytic_scenes.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/analytic_scenes.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/analytic_scenes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/analytic_scenes.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/analytic_scenes.cpp > CMakeFiles/pbrt_test.dir/src/tests/analytic_scenes.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/analytic_scenes.cpp > CMakeFiles/pbrt_test.dir/src/tests/analytic_scenes.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/analytic_scenes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/analytic_scenes.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/analytic_scenes.cpp -o CMakeFiles/pbrt_test.dir/src/tests/analytic_scenes.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/analytic_scenes.cpp -o CMakeFiles/pbrt_test.dir/src/tests/analytic_scenes.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/analytic_scenes.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/pbrt_test.dir/src/tests/analytic_scenes.cpp.o.provides.build: CMakeFi
 CMakeFiles/pbrt_test.dir/src/tests/animatedtransform.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/animatedtransform.cpp.o: src/tests/animatedtransform.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/animatedtransform.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/animatedtransform.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/animatedtransform.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/animatedtransform.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/animatedtransform.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/animatedtransform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/animatedtransform.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/animatedtransform.cpp > CMakeFiles/pbrt_test.dir/src/tests/animatedtransform.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/animatedtransform.cpp > CMakeFiles/pbrt_test.dir/src/tests/animatedtransform.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/animatedtransform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/animatedtransform.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/animatedtransform.cpp -o CMakeFiles/pbrt_test.dir/src/tests/animatedtransform.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/animatedtransform.cpp -o CMakeFiles/pbrt_test.dir/src/tests/animatedtransform.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/animatedtransform.cpp.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/pbrt_test.dir/src/tests/animatedtransform.cpp.o.provides.build: CMake
 CMakeFiles/pbrt_test.dir/src/tests/bitops.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/bitops.cpp.o: src/tests/bitops.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/bitops.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/bitops.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/bitops.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/bitops.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/bitops.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/bitops.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/bitops.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/bitops.cpp > CMakeFiles/pbrt_test.dir/src/tests/bitops.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/bitops.cpp > CMakeFiles/pbrt_test.dir/src/tests/bitops.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/bitops.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/bitops.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/bitops.cpp -o CMakeFiles/pbrt_test.dir/src/tests/bitops.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/bitops.cpp -o CMakeFiles/pbrt_test.dir/src/tests/bitops.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/bitops.cpp.o.requires:
 
@@ -132,15 +132,15 @@ CMakeFiles/pbrt_test.dir/src/tests/bitops.cpp.o.provides.build: CMakeFiles/pbrt_
 CMakeFiles/pbrt_test.dir/src/tests/bounds.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/bounds.cpp.o: src/tests/bounds.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/bounds.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/bounds.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/bounds.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/bounds.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/bounds.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/bounds.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/bounds.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/bounds.cpp > CMakeFiles/pbrt_test.dir/src/tests/bounds.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/bounds.cpp > CMakeFiles/pbrt_test.dir/src/tests/bounds.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/bounds.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/bounds.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/bounds.cpp -o CMakeFiles/pbrt_test.dir/src/tests/bounds.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/bounds.cpp -o CMakeFiles/pbrt_test.dir/src/tests/bounds.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/bounds.cpp.o.requires:
 
@@ -156,15 +156,15 @@ CMakeFiles/pbrt_test.dir/src/tests/bounds.cpp.o.provides.build: CMakeFiles/pbrt_
 CMakeFiles/pbrt_test.dir/src/tests/bsdfs.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/bsdfs.cpp.o: src/tests/bsdfs.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/bsdfs.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/bsdfs.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/bsdfs.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/bsdfs.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/bsdfs.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/bsdfs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/bsdfs.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/bsdfs.cpp > CMakeFiles/pbrt_test.dir/src/tests/bsdfs.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/bsdfs.cpp > CMakeFiles/pbrt_test.dir/src/tests/bsdfs.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/bsdfs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/bsdfs.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/bsdfs.cpp -o CMakeFiles/pbrt_test.dir/src/tests/bsdfs.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/bsdfs.cpp -o CMakeFiles/pbrt_test.dir/src/tests/bsdfs.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/bsdfs.cpp.o.requires:
 
@@ -180,15 +180,15 @@ CMakeFiles/pbrt_test.dir/src/tests/bsdfs.cpp.o.provides.build: CMakeFiles/pbrt_t
 CMakeFiles/pbrt_test.dir/src/tests/fileutil.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/fileutil.cpp.o: src/tests/fileutil.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/fileutil.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/fileutil.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/fileutil.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/fileutil.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/fileutil.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/fileutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/fileutil.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/fileutil.cpp > CMakeFiles/pbrt_test.dir/src/tests/fileutil.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/fileutil.cpp > CMakeFiles/pbrt_test.dir/src/tests/fileutil.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/fileutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/fileutil.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/fileutil.cpp -o CMakeFiles/pbrt_test.dir/src/tests/fileutil.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/fileutil.cpp -o CMakeFiles/pbrt_test.dir/src/tests/fileutil.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/fileutil.cpp.o.requires:
 
@@ -204,15 +204,15 @@ CMakeFiles/pbrt_test.dir/src/tests/fileutil.cpp.o.provides.build: CMakeFiles/pbr
 CMakeFiles/pbrt_test.dir/src/tests/find_interval.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/find_interval.cpp.o: src/tests/find_interval.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/find_interval.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/find_interval.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/find_interval.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/find_interval.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/find_interval.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/find_interval.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/find_interval.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/find_interval.cpp > CMakeFiles/pbrt_test.dir/src/tests/find_interval.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/find_interval.cpp > CMakeFiles/pbrt_test.dir/src/tests/find_interval.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/find_interval.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/find_interval.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/find_interval.cpp -o CMakeFiles/pbrt_test.dir/src/tests/find_interval.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/find_interval.cpp -o CMakeFiles/pbrt_test.dir/src/tests/find_interval.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/find_interval.cpp.o.requires:
 
@@ -228,15 +228,15 @@ CMakeFiles/pbrt_test.dir/src/tests/find_interval.cpp.o.provides.build: CMakeFile
 CMakeFiles/pbrt_test.dir/src/tests/fourierbsdf.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/fourierbsdf.cpp.o: src/tests/fourierbsdf.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/fourierbsdf.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/fourierbsdf.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/fourierbsdf.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/fourierbsdf.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/fourierbsdf.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/fourierbsdf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/fourierbsdf.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/fourierbsdf.cpp > CMakeFiles/pbrt_test.dir/src/tests/fourierbsdf.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/fourierbsdf.cpp > CMakeFiles/pbrt_test.dir/src/tests/fourierbsdf.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/fourierbsdf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/fourierbsdf.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/fourierbsdf.cpp -o CMakeFiles/pbrt_test.dir/src/tests/fourierbsdf.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/fourierbsdf.cpp -o CMakeFiles/pbrt_test.dir/src/tests/fourierbsdf.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/fourierbsdf.cpp.o.requires:
 
@@ -252,15 +252,15 @@ CMakeFiles/pbrt_test.dir/src/tests/fourierbsdf.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/pbrt_test.dir/src/tests/fp_tests.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/fp_tests.cpp.o: src/tests/fp_tests.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/fp_tests.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/fp_tests.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/fp_tests.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/fp_tests.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/fp_tests.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/fp_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/fp_tests.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/fp_tests.cpp > CMakeFiles/pbrt_test.dir/src/tests/fp_tests.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/fp_tests.cpp > CMakeFiles/pbrt_test.dir/src/tests/fp_tests.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/fp_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/fp_tests.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/fp_tests.cpp -o CMakeFiles/pbrt_test.dir/src/tests/fp_tests.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/fp_tests.cpp -o CMakeFiles/pbrt_test.dir/src/tests/fp_tests.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/fp_tests.cpp.o.requires:
 
@@ -276,15 +276,15 @@ CMakeFiles/pbrt_test.dir/src/tests/fp_tests.cpp.o.provides.build: CMakeFiles/pbr
 CMakeFiles/pbrt_test.dir/src/tests/hair.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/hair.cpp.o: src/tests/hair.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/hair.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/hair.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/hair.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/hair.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/hair.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/hair.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/hair.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/hair.cpp > CMakeFiles/pbrt_test.dir/src/tests/hair.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/hair.cpp > CMakeFiles/pbrt_test.dir/src/tests/hair.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/hair.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/hair.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/hair.cpp -o CMakeFiles/pbrt_test.dir/src/tests/hair.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/hair.cpp -o CMakeFiles/pbrt_test.dir/src/tests/hair.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/hair.cpp.o.requires:
 
@@ -300,15 +300,15 @@ CMakeFiles/pbrt_test.dir/src/tests/hair.cpp.o.provides.build: CMakeFiles/pbrt_te
 CMakeFiles/pbrt_test.dir/src/tests/hg.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/hg.cpp.o: src/tests/hg.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/hg.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/hg.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/hg.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/hg.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/hg.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/hg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/hg.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/hg.cpp > CMakeFiles/pbrt_test.dir/src/tests/hg.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/hg.cpp > CMakeFiles/pbrt_test.dir/src/tests/hg.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/hg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/hg.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/hg.cpp -o CMakeFiles/pbrt_test.dir/src/tests/hg.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/hg.cpp -o CMakeFiles/pbrt_test.dir/src/tests/hg.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/hg.cpp.o.requires:
 
@@ -324,15 +324,15 @@ CMakeFiles/pbrt_test.dir/src/tests/hg.cpp.o.provides.build: CMakeFiles/pbrt_test
 CMakeFiles/pbrt_test.dir/src/tests/imageio.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/imageio.cpp.o: src/tests/imageio.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/imageio.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/imageio.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/imageio.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/imageio.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/imageio.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/imageio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/imageio.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/imageio.cpp > CMakeFiles/pbrt_test.dir/src/tests/imageio.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/imageio.cpp > CMakeFiles/pbrt_test.dir/src/tests/imageio.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/imageio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/imageio.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/imageio.cpp -o CMakeFiles/pbrt_test.dir/src/tests/imageio.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/imageio.cpp -o CMakeFiles/pbrt_test.dir/src/tests/imageio.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/imageio.cpp.o.requires:
 
@@ -348,15 +348,15 @@ CMakeFiles/pbrt_test.dir/src/tests/imageio.cpp.o.provides.build: CMakeFiles/pbrt
 CMakeFiles/pbrt_test.dir/src/tests/parallel.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/parallel.cpp.o: src/tests/parallel.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/parallel.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/parallel.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/parallel.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/parallel.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/parallel.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/parallel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/parallel.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/parallel.cpp > CMakeFiles/pbrt_test.dir/src/tests/parallel.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/parallel.cpp > CMakeFiles/pbrt_test.dir/src/tests/parallel.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/parallel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/parallel.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/parallel.cpp -o CMakeFiles/pbrt_test.dir/src/tests/parallel.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/parallel.cpp -o CMakeFiles/pbrt_test.dir/src/tests/parallel.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/parallel.cpp.o.requires:
 
@@ -372,15 +372,15 @@ CMakeFiles/pbrt_test.dir/src/tests/parallel.cpp.o.provides.build: CMakeFiles/pbr
 CMakeFiles/pbrt_test.dir/src/tests/print.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/print.cpp.o: src/tests/print.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/print.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/print.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/print.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/print.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/print.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/print.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/print.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/print.cpp > CMakeFiles/pbrt_test.dir/src/tests/print.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/print.cpp > CMakeFiles/pbrt_test.dir/src/tests/print.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/print.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/print.cpp -o CMakeFiles/pbrt_test.dir/src/tests/print.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/print.cpp -o CMakeFiles/pbrt_test.dir/src/tests/print.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/print.cpp.o.requires:
 
@@ -396,15 +396,15 @@ CMakeFiles/pbrt_test.dir/src/tests/print.cpp.o.provides.build: CMakeFiles/pbrt_t
 CMakeFiles/pbrt_test.dir/src/tests/sampling.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/sampling.cpp.o: src/tests/sampling.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/sampling.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/sampling.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/sampling.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/sampling.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/sampling.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/sampling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/sampling.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/sampling.cpp > CMakeFiles/pbrt_test.dir/src/tests/sampling.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/sampling.cpp > CMakeFiles/pbrt_test.dir/src/tests/sampling.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/sampling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/sampling.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/sampling.cpp -o CMakeFiles/pbrt_test.dir/src/tests/sampling.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/sampling.cpp -o CMakeFiles/pbrt_test.dir/src/tests/sampling.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/sampling.cpp.o.requires:
 
@@ -420,15 +420,15 @@ CMakeFiles/pbrt_test.dir/src/tests/sampling.cpp.o.provides.build: CMakeFiles/pbr
 CMakeFiles/pbrt_test.dir/src/tests/shapes.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/shapes.cpp.o: src/tests/shapes.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/shapes.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/shapes.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/shapes.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/shapes.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/shapes.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/shapes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/shapes.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/shapes.cpp > CMakeFiles/pbrt_test.dir/src/tests/shapes.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/shapes.cpp > CMakeFiles/pbrt_test.dir/src/tests/shapes.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/shapes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/shapes.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/shapes.cpp -o CMakeFiles/pbrt_test.dir/src/tests/shapes.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/shapes.cpp -o CMakeFiles/pbrt_test.dir/src/tests/shapes.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/shapes.cpp.o.requires:
 
@@ -444,15 +444,15 @@ CMakeFiles/pbrt_test.dir/src/tests/shapes.cpp.o.provides.build: CMakeFiles/pbrt_
 CMakeFiles/pbrt_test.dir/src/tests/spectrum.cpp.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/spectrum.cpp.o: src/tests/spectrum.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/spectrum.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/spectrum.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/spectrum.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/spectrum.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/spectrum.cpp
 
 CMakeFiles/pbrt_test.dir/src/tests/spectrum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/spectrum.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/spectrum.cpp > CMakeFiles/pbrt_test.dir/src/tests/spectrum.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/spectrum.cpp > CMakeFiles/pbrt_test.dir/src/tests/spectrum.cpp.i
 
 CMakeFiles/pbrt_test.dir/src/tests/spectrum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/spectrum.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/spectrum.cpp -o CMakeFiles/pbrt_test.dir/src/tests/spectrum.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/spectrum.cpp -o CMakeFiles/pbrt_test.dir/src/tests/spectrum.cpp.s
 
 CMakeFiles/pbrt_test.dir/src/tests/spectrum.cpp.o.requires:
 
@@ -468,15 +468,15 @@ CMakeFiles/pbrt_test.dir/src/tests/spectrum.cpp.o.provides.build: CMakeFiles/pbr
 CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest-all.cc.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest-all.cc.o: src/tests/gtest/gtest-all.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest-all.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest-all.cc.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/gtest/gtest-all.cc
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest-all.cc.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/gtest/gtest-all.cc
 
 CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest-all.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/gtest/gtest-all.cc > CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest-all.cc.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/gtest/gtest-all.cc > CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest-all.cc.i
 
 CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest-all.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/gtest/gtest-all.cc -o CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest-all.cc.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/gtest/gtest-all.cc -o CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest-all.cc.s
 
 CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest-all.cc.o.requires:
 
@@ -492,15 +492,15 @@ CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest-all.cc.o.provides.build: CMakeFil
 CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest_main.cc.o: CMakeFiles/pbrt_test.dir/flags.make
 CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest_main.cc.o: src/tests/gtest/gtest_main.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest_main.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest_main.cc.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/gtest/gtest_main.cc
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest_main.cc.o -c /Users/marios/PTaaS/pbrt-v3/src/tests/gtest/gtest_main.cc
 
 CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest_main.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/gtest/gtest_main.cc > CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest_main.cc.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tests/gtest/gtest_main.cc > CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest_main.cc.i
 
 CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest_main.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/gtest/gtest_main.cc -o CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest_main.cc.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tests/gtest/gtest_main.cc -o CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest_main.cc.s
 
 CMakeFiles/pbrt_test.dir/src/tests/gtest/gtest_main.cc.o.requires:
 

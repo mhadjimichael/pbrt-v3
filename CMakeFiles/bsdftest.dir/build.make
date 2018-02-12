@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.10.0/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.10.2/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.10.0/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.10.2/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -60,15 +60,15 @@ include CMakeFiles/bsdftest.dir/flags.make
 CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o: CMakeFiles/bsdftest.dir/flags.make
 CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o: src/tools/bsdftest.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marios/PTaaS/pbrt-v3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tools/bsdftest.cpp
+	/usr/local/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o -c /Users/marios/PTaaS/pbrt-v3/src/tools/bsdftest.cpp
 
 CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tools/bsdftest.cpp > CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.i
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/marios/PTaaS/pbrt-v3/src/tools/bsdftest.cpp > CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.i
 
 CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tools/bsdftest.cpp -o CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.s
+	/usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/marios/PTaaS/pbrt-v3/src/tools/bsdftest.cpp -o CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.s
 
 CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o.requires:
 

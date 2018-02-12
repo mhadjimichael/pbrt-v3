@@ -64,51 +64,68 @@ void AdaptiveMLTSampler::Accept() {
 }
 
 void AdaptiveMLTSampler::logAcceptRatio(Float a, Spectrum contribution) {
-    #define LIMITTTTT 1000
-    if (iters > LIMITTTTT)  return;
+    #define LIMITTTTT 90000
+    if (iters > LIMITTTTT) return;
+
+    // a == 1.0f : accept
+    // otherwise reject
 
     if (largeStep) {
-        //num_l++;
         //n_l += a;
         if (a == 1.f) n_l++;
-        else num_l++;
-
+        
+        num_l++;
         num_0++;
-        if (contribution == Spectrum(0.f)) {
-            n_0 += 1;
+        //if (contribution.y() > 0.000000000000000000001f) {
+        //if (contribution.y() > 0.0000001f) {
+        //if (contribution.y() > 0.01f || contribution.y() < -0.01f) {
+        if (contribution.y() > 1e-24) {
+            n_0 ++;
         }
     }
     else {
-        //num_s++;
         //n_s += a;
         if (a == 1.f) n_s++;
-        else num_s++;
+        num_s++;
     }
 
-    
+    /*
+        num_0 = total # of large step mutations computed
+        num_l = total # of large step mutations computed
+        num_s = total # of small step mutations computed
 
-    if (iters == LIMITTTTT && num_l > 0 && num_s > 0) {
-        Float avg_n_l = n_l/(Float)num_l;
-        Float avg_n_0 = n_0/(Float)num_0;
-        Float avg_n_s = n_s/(Float)num_s;
+        avg_n_s = # small steps accepted / num_s
+        avg_n_l = # large step accepted / num_l
+        avg_n_0 = # non-zero large computed / num_0
+    */
+
+    if (iters == LIMITTTTT && num_l > 0.f && num_s > 0.f) {
+        Float avg_n_l = (Float)n_l/(Float)num_l;
+        Float avg_n_0 = (Float)n_0/(Float)num_l;
+        Float avg_n_s = (Float)n_s/(Float)num_s;
 
         if (avg_n_l/avg_n_0 > 0.1f) {
         //if (avg_n_l*10.f > *avg_n_0) {
-            largeStepProbability = std::min(avg_n_s/(2.f*(avg_n_s - avg_n_l)), 1.f);
+            //largeStepProbability = std::min(avg_n_s/(2.f*(avg_n_s - avg_n_l) ), 1.f);
             //std::cout << "Case 1\n";
         }
         else {
-            largeStepProbability = 0.25f;
+            //largeStepProbability = 0.25f;
             //std::cout << "Case 2\n";
         }
         
         if (iters == LIMITTTTT) {
-            std::cout << "Large Step Probability set to: " << largeStepProbability << "\n";
+            std::cout << __DATE__ << " @ " << __TIME__ << "\n";
+            std::cout << "da da LIMITTTTT: " << LIMITTTTT << "\n";
+            std::cout << "aLarge Step Probability set to: " << std::min(avg_n_s/(2.f*(avg_n_s - avg_n_l)), 1.f) << "\n";
             std::cout << "avg_n_l: " << avg_n_l << "\n" <<
                         "avg_n_s: " << avg_n_s << "\n" <<
                         "avg_n_0 " << avg_n_0 << "\n" << 
                         "ratiooooo: " << avg_n_l/avg_n_0 << "\n";
         }
+    }
+    else if (iters == LIMITTTTT) {
+        std::cout << "This should not happen in " << __FILE__  << __LINE__ << std::endl;
     }
     iters++;
 }
@@ -210,11 +227,10 @@ void AdaptiveMLTIntegrator::Render(const Scene &scene) {
     for (size_t i = 0; i < scene.lights.size(); ++i)
         lightToIndex[scene.lights[i].get()] = i;
 
-
+    
     // calculate the prob
     {
-
-        int i = 0;
+        //int i = 0;
         Film &film = *camera->film;
         int64_t nTotalMutations =
             (int64_t)mutationsPerPixel * (int64_t)film.GetSampleBounds().Area();
@@ -245,7 +261,8 @@ void AdaptiveMLTIntegrator::Render(const Scene &scene) {
         }
         Distribution1D bootstrap(&bootstrapWeights[0], nBootstrapSamples);
         Float b = bootstrap.funcInt * (maxDepth + 1);
-
+        
+        int i = 3;
         int64_t nChainMutations =
             std::min((i + 1) * nTotalMutations / nChains, nTotalMutations) -
             i * nTotalMutations / nChains;
@@ -271,7 +288,7 @@ void AdaptiveMLTIntegrator::Render(const Scene &scene) {
             Spectrum LProposed =
                 L(scene, arena, lightDistr, lightToIndex, sampler, depth, &pProposed);
             // Compute acceptance probability for proposed sample
-            Float accept = std::min((Float)1, LProposed.y() / LCurrent.y());
+            Float accept = std::min((Float)1.0f, LProposed.y() / LCurrent.y());
             //sampler.logAcceptRatio(accept, LProposed.y()); //ptaas
 
             // Accept or reject the proposal

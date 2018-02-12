@@ -56,9 +56,9 @@ class AdaptiveMLTSampler : public Sampler {
     // PTaaS
     void logAcceptRatio(Float a, Spectrum b);
 
-    Float n_s = 0; // the average probability that a small perturbation is accepted
-    Float n_l = 0; // the average probability that a large perturbation is accepted
-    Float n_0 = 0; // s the average probability that a large perturbation generates a non-zero contribution sample
+    Float n_s = 0.f; // the average probability that a small perturbation is accepted
+    Float n_l = 0.f; // the average probability that a large perturbation is accepted
+    Float n_0 = 0.f; // s the average probability that a large perturbation generates a non-zero contribution sample
 
     // num
     int num_s = 0;
